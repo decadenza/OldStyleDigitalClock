@@ -9,7 +9,7 @@ This is a simple design for a digital clock. Features:
 - Optional solar cell power arrangement.
 
 
-## Licence
+## License
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
 You are free to:
