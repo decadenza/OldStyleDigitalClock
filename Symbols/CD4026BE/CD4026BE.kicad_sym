@@ -1,0 +1,147 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CD4026BE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -30.48 21.32 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CD4026BE" (id 1) (at -30.48 -24.32 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CD4026BE:DIP794W45P254L1969H508Q16" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CD4026BE_0_0"
+      (rectangle (start -30.48 -20.32) (end 30.48 20.32)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin input clock (at -35.56 12.7 0) (length 5.08)
+        (name "CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -35.56 10.16 0) (length 5.08)
+        (name "CLK_INHIBIT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -35.56 7.62 0) (length 5.08)
+        (name "DISPLAY_EN_IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -35.56 5.08 0) (length 5.08)
+        (name "RESET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 35.56 17.78 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 12.7 180.0) (length 5.08)
+        (name "A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 10.16 180.0) (length 5.08)
+        (name "B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 7.62 180.0) (length 5.08)
+        (name "C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 5.08 180.0) (length 5.08)
+        (name "CARRY_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 2.54 180.0) (length 5.08)
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 0.0 180.0) (length 5.08)
+        (name "DISPLAY_EN_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 -2.54 180.0) (length 5.08)
+        (name "E"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 -5.08 180.0) (length 5.08)
+        (name "F"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 -7.62 180.0) (length 5.08)
+        (name "G"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 35.56 -10.16 180.0) (length 5.08)
+        (name "UNGATED_C_SEGMENT_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 35.56 -17.78 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

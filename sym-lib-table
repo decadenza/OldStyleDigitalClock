@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "CD4521BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4521BE/CD4521BE.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4026BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4026BE/CD4026BE.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4017BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4017BE/CD4017BE.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4060BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4060BE/CD4060BE.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4073BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4073BE/CD4073BE.kicad_sym")(options "")(descr ""))
+)

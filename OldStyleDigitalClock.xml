@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/decadenza/Desktop/OldStyleDigitalClock/KiCadProject/OldStyleDigitalClock.kicad_sch</source>
+    <date>Sun 18 May 2025 16:17:42 BST</date>
+    <tool>Eeschema 6.0.11+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Old style digital clock</title>
+        <company>Pasquale Lafiosca</company>
+        <rev>0</rev>
+        <date>2025-03-22</date>
+        <source>OldStyleDigitalClock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>1.2 V</value>
+      <footprint>CustomLibrary:AA battery holder</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be0b266-3823-4fc6-b506-608ff30b68cb</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>1.2 V</value>
+      <footprint>CustomLibrary:AA battery holder</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>090f7c4c-1b7b-4af0-885b-433100553d7c</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>1.2 V</value>
+      <footprint>CustomLibrary:AA battery holder</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b73e3f1-bde3-484f-b290-a9044f7ead41</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb27d038-3520-45af-bb87-ef485921cab1</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e0ba3ac-7022-498c-9ef8-861cd65e3a36</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d20e2bd-49ed-4ef5-8318-1310bf559548</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10 µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bef584b4-1e59-41f7-a795-dd26f93a36b5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>20 pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c6c72c4-ee0d-4b2c-be47-034921b36864</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10 pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c04f6b5-3fb2-4a20-b578-6c09a7daa495</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d52b4047-fd73-4db8-be53-7cebd94f990a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d341c35b-9372-42d0-b071-b18ec002adc3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>994c0db3-1a30-4513-8e2f-a2dd7fbf6aec</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2b3bb27-a701-406e-90e6-78dd669b00ba</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3167150e-b0b2-420c-a2cd-9b0ac5f4c915</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99a97a18-7a06-4bda-8670-35e6772db895</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b605f241-6785-49be-89ad-4bcbf622cde7</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100 µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad07d540-231e-4cd1-b0a7-9739c2b13d53</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1 µF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8448db36-d8d4-484d-96b8-99c68294165f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ea27ad4-4f34-4b4a-b6ac-8d120a484c4f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98cbc0c3-be39-4c42-b8e4-b7f9932a7641</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffbbc10e-a802-4f7d-b1db-14ac02d691f8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>666f80f0-466b-428f-ad9f-7efa91b8cb97</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b00d13cf-9b0d-4faa-8a4c-bda1b61b066e</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3a95468-206a-4638-bae8-4ea17ebc2fb4</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>645efd2e-726f-401b-bbad-e86a70fe25b9</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>4 V Solar cell</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Device" part="D_Photo" description="Photodiode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a8343d9-4301-4fa0-a6a0-ed6d3137e10a</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff46600-2d15-4423-b669-8d7963d756aa</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87844b29-858d-4d97-949e-8c11a5aa5130</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220 Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c32a9fd-31fc-4c36-bd7a-170d75be5a38</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11fcf1c4-9594-47fe-b64b-59a8eebbf0a4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98c83178-1afb-4d3c-8a49-d00373702413</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a521e49f-f70c-40a0-a32f-893190df6e29</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20294e65-c750-43cf-bedd-e595a75d6859</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9ee2402-34f6-4047-8a56-0efbea3c22a3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f22b0636-c81a-4b95-bb98-8841c4ebe171</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4db295d4-6912-40c3-96dc-111df98543da</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46cfebf2-721d-4bed-ac3a-bcefda5d07b3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8017e1b-b62f-4e36-b8b4-818f074eb188</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef859368-019d-43eb-bb31-26679a2a4bcc</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70b2c05f-b49e-4770-8a88-cb76c31212fd</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9971485-0955-4012-bbf8-6ac9c254dfc7</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c9c9536-4580-4f62-aafd-408a5d4a2b61</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57245dc7-74eb-4716-82aa-a81fa7a7b744</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ac72e64-5f52-400c-a289-c9dd1bb07e60</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c0964b-f46d-4135-a3da-cb1d9875cf7b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39d6923b-ffa1-4803-8547-812aaeffe88f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>220 Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d687949e-a8d7-48a4-8a72-2f341f7fbda1</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31ab7d80-dc83-47c4-b6f2-a646d5537cf5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b329371-7d4b-44e3-88a8-e12006234bb3</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a9b7f98-0177-4c20-8049-fc6c4d61c2d2</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c546db50-550e-4bed-8b03-fb3e9f49a17f</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e46b8a1-cf69-46ad-931f-471163d91902</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5561405-95b2-4e00-9387-1896f902bcea</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10dd6a0b-53d9-4d6b-940b-be2675627197</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16d1628f-b913-4be8-9f02-7c19ae5433e0</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c8b79f7-1d8c-4141-8dec-599140a62263</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aec12085-a86d-4e90-a7cd-79f487e9cadd</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f524f3af-a2fb-43d3-aaa0-326683f2980b</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8708759b-8961-4e2f-8f4c-4713b0a262db</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdc17d98-be01-40b1-be12-983a071cdba0</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a043b0b6-ef1f-4cfb-ac70-19cbf25e07b2</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>4.7 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e85c37-3a4a-4be4-ae50-b0cd637366a9</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ef33543-15ef-4f6b-900c-48ea581530a3</tstamps>
+    </comp>
+    <comp ref="R_{C}1">
+      <value>10 MΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25e6debf-a928-4cae-997c-e3227cdf8446</tstamps>
+    </comp>
+    <comp ref="R_{S}1">
+      <value>300 kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe860403-16dd-4fb8-890e-b728ba18486d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Set minutes</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce5b4c73-656c-4bcb-818e-ee1dd47c5408</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Set hours</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d02f068-d4bb-453e-a329-eec73898bc46</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>D168K</value>
+      <footprint>Display_7Segment:D1X8K</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Generic7SegmentLedCC" part="D168K" description="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34975c85-5d2c-4b75-a91d-3f81a6989b7c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>CD4026BE</value>
+      <footprint>CD4026BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4026BE" part="CD4026BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ded0c1-b889-4416-9d87-c63de1428281</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CD4060BE</value>
+      <footprint>CD4060BE:DIP794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator
+                        
+</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MP">CD4060BE</field>
+        <field name="Package">PDIP-16 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="CD4060BE" part="CD4060BE" description=""/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Description" value="&#xA;                        &#xA;                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator&#xA;                        &#xA;"/>
+      <property name="Package" value="PDIP-16 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="CD4060BE"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b48c2c5e-bb26-43c5-a56f-79b20a8e364e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>D168K</value>
+      <footprint>Display_7Segment:D1X8K</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Generic7SegmentLedCC" part="D168K" description="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddf42ef2-a6f2-444f-9028-0d5ca3eade4a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CD4026BE</value>
+      <footprint>CD4026BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4026BE" part="CD4026BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a535324a-0d88-401b-8673-ad63683e59c9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CD4017BE</value>
+      <footprint>CD4017BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4017BE" part="CD4017BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4c1e11f-4307-484a-a5b1-bb0cb681154e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>CD4017BE</value>
+      <footprint>CD4017BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4017BE" part="CD4017BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c932e37d-b650-428d-99d0-b8b21b1348f9</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>CD4017BE</value>
+      <footprint>CD4017BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4017BE" part="CD4017BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea4c277e-5bf1-43ff-b2a4-d3202ba89320</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>4073</value>
+      <footprint>CD4073BE:DIP794W45P254L1969H508Q14</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4073" description="Triple And 3 inputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8af5fb74-250c-458f-8d9f-d618f79e0db6 cde4578b-fa1d-4cbf-83ef-1f372550732e acbedbf9-7a9b-49f1-8581-4cc25fb110e9 731294dd-7aa6-41a5-9bc9-01703cbd6a60</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>D168K</value>
+      <footprint>Display_7Segment:D1X8K</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Generic7SegmentLedCC" part="D168K" description="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e1b2703-bc2e-4ad3-9d01-579170b94083</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>CD4026BE</value>
+      <footprint>CD4026BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4026BE" part="CD4026BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>238a895b-17b9-4020-8b59-2e2b6f63c182</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>D168K</value>
+      <footprint>Display_7Segment:D1X8K</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Generic7SegmentLedCC" part="D168K" description="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8a48051-e6ec-4683-a07e-acb147fb75ad</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>CD4026BE</value>
+      <footprint>CD4026BE:DIP794W45P254L1969H508Q16</footprint>
+      <libsource lib="CD4026BE" part="CD4026BE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9115d3f-5576-4ef5-951c-1a49dea33d0d</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>HC49 XTAL (32768 Hz)</value>
+      <footprint>Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OldStyleDigitalClock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a73bf602-0fd9-4da3-9a3a-37336385cdba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4073">
+      <description>Triple And 3 inputs</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4073</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="output"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD4017BE" part="CD4017BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4017BE</field>
+        <field name="Footprint">CD4017BE:DIP794W45P254L1969H508Q16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5" type="output"/>
+        <pin num="2" name="1" type="output"/>
+        <pin num="3" name="O" type="output"/>
+        <pin num="4" name="2" type="output"/>
+        <pin num="5" name="6" type="output"/>
+        <pin num="6" name="7" type="output"/>
+        <pin num="7" name="3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="8" type="output"/>
+        <pin num="10" name="4" type="output"/>
+        <pin num="11" name="9" type="output"/>
+        <pin num="12" name="CARRY_OUT" type="output"/>
+        <pin num="13" name="CLOCK_INHIBIT" type="input"/>
+        <pin num="14" name="CLOCK" type="input"/>
+        <pin num="15" name="RESET" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD4026BE" part="CD4026BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4026BE</field>
+        <field name="Footprint">CD4026BE:DIP794W45P254L1969H508Q16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="input"/>
+        <pin num="2" name="CLK_INHIBIT" type="input"/>
+        <pin num="3" name="DISPLAY_EN_IN" type="input"/>
+        <pin num="4" name="DISPLAY_EN_OUT" type="output"/>
+        <pin num="5" name="CARRY_OUT" type="output"/>
+        <pin num="6" name="F" type="output"/>
+        <pin num="7" name="G" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="D" type="output"/>
+        <pin num="10" name="A" type="output"/>
+        <pin num="11" name="E" type="output"/>
+        <pin num="12" name="B" type="output"/>
+        <pin num="13" name="C" type="output"/>
+        <pin num="14" name="UNGATED_C_SEGMENT_OUT" type="output"/>
+        <pin num="15" name="RESET" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD4060BE" part="CD4060BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4060BE</field>
+        <field name="Footprint">CD4060BE:DIP794W45P254L1969H508Q16</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description">
+                        
+                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator
+                        
+</field>
+        <field name="Package">PDIP-16 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">CD4060BE</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CD4060BE/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q12" type="output"/>
+        <pin num="2" name="Q13" type="output"/>
+        <pin num="3" name="Q14" type="output"/>
+        <pin num="4" name="Q6" type="output"/>
+        <pin num="5" name="Q5" type="output"/>
+        <pin num="6" name="Q7" type="output"/>
+        <pin num="7" name="Q4" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="(PHI)O" type="input"/>
+        <pin num="10" name="(PHI)O" type="input"/>
+        <pin num="11" name="(PHI)I" type="input"/>
+        <pin num="12" name="RESET" type="input"/>
+        <pin num="13" name="Q9" type="output"/>
+        <pin num="14" name="Q8" type="output"/>
+        <pin num="15" name="Q10" type="output"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Photo">
+      <description>Photodiode</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Photo</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT85">
+      <description>30V 0.2A Schottky barrier single diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT85</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Generic7SegmentLedCC" part="D168K">
+      <description>One digit 7 segment ultra bright red LED, low current, common cathode</description>
+      <docs>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</docs>
+      <footprints>
+        <fp>D1X8K*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D168K</field>
+        <field name="Footprint">Display_7Segment:D1X8K</field>
+        <field name="Datasheet">https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="CC" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="CC" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>/usr/share/kicad/symbols//4xxx.kicad_sym</uri>
+    </library>
+    <library logical="CD4017BE">
+      <uri>/home/decadenza/Desktop/OldStyleDigitalClock/KiCadProject/Symbols/CD4017BE/CD4017BE.kicad_sym</uri>
+    </library>
+    <library logical="CD4026BE">
+      <uri>/home/decadenza/Desktop/OldStyleDigitalClock/KiCadProject/Symbols/CD4026BE/CD4026BE.kicad_sym</uri>
+    </library>
+    <library logical="CD4060BE">
+      <uri>/home/decadenza/Desktop/OldStyleDigitalClock/KiCadProject/Symbols/CD4060BE/CD4060BE.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK 1 Hz">
+      <node ref="U6" pin="2" pinfunction="1" pintype="output"/>
+      <node ref="U7" pin="14" pinfunction="CLOCK" pintype="input"/>
+    </net>
+    <net code="2" name="/CLK 1{slash}(10 hours)">
+      <node ref="U11" pin="5" pinfunction="CARRY_OUT" pintype="output"/>
+      <node ref="U13" pin="1" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="3" name="/CLK 1{slash}(24 hours)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="6" pintype="output"/>
+    </net>
+    <net code="4" name="/CLK 1{slash}10 Hz">
+      <node ref="U7" pin="12" pinfunction="CARRY_OUT" pintype="output"/>
+      <node ref="U8" pin="14" pinfunction="CLOCK" pintype="input"/>
+    </net>
+    <net code="5" name="/CLK 1{slash}60 Hz">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="CLK" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="5" pintype="output"/>
+    </net>
+    <net code="6" name="/CLK 1{slash}hour">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="9" pintype="output"/>
+    </net>
+    <net code="7" name="/CLK 2 Hz">
+      <node ref="U3" pin="3" pinfunction="Q14" pintype="output"/>
+      <node ref="U6" pin="14" pinfunction="CLOCK" pintype="input"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="BT3" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="CC" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="CC" pintype="input"/>
+      <node ref="U11" pin="2" pinfunction="CLK_INHIBIT" pintype="input"/>
+      <node ref="U11" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="U12" pin="8" pinfunction="CC" pintype="input"/>
+      <node ref="U13" pin="2" pinfunction="CLK_INHIBIT" pintype="input"/>
+      <node ref="U13" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="CLK_INHIBIT" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="RESET" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="CC" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="CLK_INHIBIT" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="CLOCK_INHIBIT" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U7" pin="13" pinfunction="CLOCK_INHIBIT" pintype="input"/>
+      <node ref="U7" pin="15" pinfunction="RESET" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="13" pinfunction="CLOCK_INHIBIT" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U9" pin="11" pintype="input"/>
+      <node ref="U9" pin="12" pintype="input"/>
+      <node ref="U9" pin="13" pintype="input"/>
+      <node ref="U9" pin="7" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="9" name="MR">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(BT2-Pad2)">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT3" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R_{S}1" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R_{C}1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="(PHI)I" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U11" pin="15" pinfunction="RESET" pintype="input"/>
+      <node ref="U13" pin="15" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="F" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="G" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="E" pintype="output"/>
+      <node ref="U9" pin="1" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="F" pintype="output"/>
+      <node ref="U9" pin="2" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="G" pintype="output"/>
+      <node ref="U9" pin="8" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U11" pin="10" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U11" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="54" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U11" pin="13" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="56" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U11" pin="9" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U11" pin="11" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="60" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U10" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="F" pintype="output"/>
+      <node ref="U9" pin="5" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="G" pintype="output"/>
+      <node ref="U9" pin="3" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U13" pin="10" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="66" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U13" pin="12" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U13" pin="13" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U13" pin="9" pinfunction="D" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U13" pin="11" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U12" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="F" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(R34-Pad1)">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U12" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U13" pin="7" pinfunction="G" pintype="output"/>
+      <node ref="U9" pin="4" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(R_{C}1-Pad2)">
+      <node ref="R_{C}1" pin="2" pintype="passive"/>
+      <node ref="R_{S}1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="(PHI)O" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="CARRY_OUT" pintype="output"/>
+      <node ref="U5" pin="1" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="RESET" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="2" pintype="output"/>
+    </net>
+    <net code="81" name="Net-(U8-Pad15)">
+      <node ref="U8" pin="15" pinfunction="RESET" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="6" pintype="output"/>
+    </net>
+    <net code="82" name="VDD">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U11" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="DISPLAY_EN_IN" pintype="input"/>
+      <node ref="U13" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="DISPLAY_EN_IN" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="DISPLAY_EN_IN" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="DISPLAY_EN_IN" pintype="input"/>
+      <node ref="U6" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U9" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="84" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="DISPLAY_EN_OUT" pintype="output"/>
+    </net>
+    <net code="85" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="UNGATED_C_SEGMENT_OUT" pintype="output"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="Q12" pintype="output"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="Q13" pintype="output"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="Q6" pintype="output"/>
+    </net>
+    <net code="89" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="90" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="Q7" pintype="output"/>
+    </net>
+    <net code="91" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="Q4" pintype="output"/>
+    </net>
+    <net code="92" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="(PHI)O" pintype="input"/>
+    </net>
+    <net code="93" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="Q9" pintype="output"/>
+    </net>
+    <net code="94" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="Q8" pintype="output"/>
+    </net>
+    <net code="95" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="Q10" pintype="output"/>
+    </net>
+    <net code="96" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="97" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="DISPLAY_EN_OUT" pintype="output"/>
+    </net>
+    <net code="98" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="CARRY_OUT" pintype="output"/>
+    </net>
+    <net code="99" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="UNGATED_C_SEGMENT_OUT" pintype="output"/>
+    </net>
+    <net code="100" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="5" pintype="output"/>
+    </net>
+    <net code="101" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="O" pintype="output"/>
+    </net>
+    <net code="102" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="6" pintype="output"/>
+    </net>
+    <net code="103" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="7" pintype="output"/>
+    </net>
+    <net code="104" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="3" pintype="output"/>
+    </net>
+    <net code="105" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="8" pintype="output"/>
+    </net>
+    <net code="106" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pinfunction="4" pintype="output"/>
+    </net>
+    <net code="107" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pinfunction="9" pintype="output"/>
+    </net>
+    <net code="108" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pinfunction="CARRY_OUT" pintype="output"/>
+    </net>
+    <net code="109" name="unconnected-(U7-Pad1)">
+      <node ref="U7" pin="1" pinfunction="5" pintype="output"/>
+    </net>
+    <net code="110" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="1" pintype="output"/>
+    </net>
+    <net code="111" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="O" pintype="output"/>
+    </net>
+    <net code="112" name="unconnected-(U7-Pad4)">
+      <node ref="U7" pin="4" pinfunction="2" pintype="output"/>
+    </net>
+    <net code="113" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="6" pintype="output"/>
+    </net>
+    <net code="114" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="7" pintype="output"/>
+    </net>
+    <net code="115" name="unconnected-(U7-Pad7)">
+      <node ref="U7" pin="7" pinfunction="3" pintype="output"/>
+    </net>
+    <net code="116" name="unconnected-(U7-Pad9)">
+      <node ref="U7" pin="9" pinfunction="8" pintype="output"/>
+    </net>
+    <net code="117" name="unconnected-(U7-Pad10)">
+      <node ref="U7" pin="10" pinfunction="4" pintype="output"/>
+    </net>
+    <net code="118" name="unconnected-(U7-Pad11)">
+      <node ref="U7" pin="11" pinfunction="9" pintype="output"/>
+    </net>
+    <net code="119" name="unconnected-(U8-Pad2)">
+      <node ref="U8" pin="2" pinfunction="1" pintype="output"/>
+    </net>
+    <net code="120" name="unconnected-(U8-Pad3)">
+      <node ref="U8" pin="3" pinfunction="O" pintype="output"/>
+    </net>
+    <net code="121" name="unconnected-(U8-Pad4)">
+      <node ref="U8" pin="4" pinfunction="2" pintype="output"/>
+    </net>
+    <net code="122" name="unconnected-(U8-Pad6)">
+      <node ref="U8" pin="6" pinfunction="7" pintype="output"/>
+    </net>
+    <net code="123" name="unconnected-(U8-Pad7)">
+      <node ref="U8" pin="7" pinfunction="3" pintype="output"/>
+    </net>
+    <net code="124" name="unconnected-(U8-Pad9)">
+      <node ref="U8" pin="9" pinfunction="8" pintype="output"/>
+    </net>
+    <net code="125" name="unconnected-(U8-Pad10)">
+      <node ref="U8" pin="10" pinfunction="4" pintype="output"/>
+    </net>
+    <net code="126" name="unconnected-(U8-Pad11)">
+      <node ref="U8" pin="11" pinfunction="9" pintype="output"/>
+    </net>
+    <net code="127" name="unconnected-(U8-Pad12)">
+      <node ref="U8" pin="12" pinfunction="CARRY_OUT" pintype="output"/>
+    </net>
+    <net code="128" name="unconnected-(U9-Pad10)">
+      <node ref="U9" pin="10" pintype="output"/>
+    </net>
+    <net code="129" name="unconnected-(U10-Pad5)">
+      <node ref="U10" pin="5" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="130" name="unconnected-(U11-Pad4)">
+      <node ref="U11" pin="4" pinfunction="DISPLAY_EN_OUT" pintype="output"/>
+    </net>
+    <net code="131" name="unconnected-(U11-Pad14)">
+      <node ref="U11" pin="14" pinfunction="UNGATED_C_SEGMENT_OUT" pintype="output"/>
+    </net>
+    <net code="132" name="unconnected-(U12-Pad5)">
+      <node ref="U12" pin="5" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="133" name="unconnected-(U13-Pad4)">
+      <node ref="U13" pin="4" pinfunction="DISPLAY_EN_OUT" pintype="output"/>
+    </net>
+    <net code="134" name="unconnected-(U13-Pad5)">
+      <node ref="U13" pin="5" pinfunction="CARRY_OUT" pintype="output"/>
+    </net>
+    <net code="135" name="unconnected-(U13-Pad14)">
+      <node ref="U13" pin="14" pinfunction="UNGATED_C_SEGMENT_OUT" pintype="output"/>
+    </net>
+  </nets>
+</export>

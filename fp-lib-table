@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "CD4060BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4060BE")(options "")(descr ""))
+  (lib (name "CD4017BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4017BE")(options "")(descr ""))
+  (lib (name "CD4026BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4026BE")(options "")(descr ""))
+  (lib (name "CD4521BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4521BE")(options "")(descr ""))
+  (lib (name "CD4073BE")(type "KiCad")(uri "${KIPRJMOD}/Symbols/CD4073BE")(options "")(descr ""))
+)
