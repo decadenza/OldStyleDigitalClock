@@ -1,7 +1,9 @@
 # Old Style Digital Clock
 A digital clock with no microcontrollers.
 
-This is a simple design for a digital clock. Features:
+This is a simple, fully functional digital clock design.
+
+## Features:
 - HH:MM 24-hour format.
 - Based on common and readily available components like counters and logic gates.
 - This clock uses a Pierce oscillator circuit (quartz crystal), so it will keep the time much more accurately than a NE555 or similar timers.
