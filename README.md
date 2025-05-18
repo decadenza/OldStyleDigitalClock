@@ -7,7 +7,7 @@ This is a simple, fully functional digital clock design.
 - HH:MM 24-hour format.
 - Based on common and readily available components like counters and logic gates.
 - This clock uses a Pierce oscillator circuit (quartz crystal), so it will keep the time much more accurately than a NE555 or similar timers.
-- Powered by 3 x AA 1.2 rechargeable batteries.
+- Powered by 3 x AA 1.2 V rechargeable batteries.
 - Optional solar cell power arrangement.
 
 ## PCB printing
