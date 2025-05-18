@@ -8,6 +8,8 @@ This is a simple design for a digital clock. Features:
 - Powered by 3 x AA 1.2 rechargeable batteries.
 - Optional solar cell power arrangement.
 
+## PCB printing
+A standard 2-layer PCB is used. You may use the [FabricationOutput.zip](FabricationOutput.zip) file directly to order the PCM from your supplier. It contains the necessary Gerbers and drill files.
 
 ## License
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
