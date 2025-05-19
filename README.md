@@ -1,7 +1,7 @@
 # Old Style Digital Clock
-A digital clock with no microcontrollers.
+A simple, fully functional digital clock without microcontrollers.
 
-This is a simple, fully functional digital clock design.
+<img src="https://github.com/decadenza/OldStyleDigitalClock/blob/main/img/TheClock.jpg" alt="The old style digital clock" width="300">
 
 ## Features
 - HH:MM 24-hour format.
