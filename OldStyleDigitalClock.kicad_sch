@@ -4273,7 +4273,7 @@
     (property "Reference" "D8" (id 0) (at 24.13 177.4824 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4 V Solar cell" (id 1) (at 24.13 180.0224 90)
+    (property "Value" "5 V Solar cell" (id 1) (at 24.13 180.0224 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 21.59 179.07 0)
@@ -5641,7 +5641,7 @@
       (reference "D7") (unit 1) (value "BAT85") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/9a8343d9-4301-4fa0-a6a0-ed6d3137e10a"
-      (reference "D8") (unit 1) (value "4 V Solar cell") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
+      (reference "D8") (unit 1) (value "5 V Solar cell") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/0ff46600-2d15-4423-b669-8d7963d756aa"
       (reference "D9") (unit 1) (value "BAT85") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")

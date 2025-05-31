@@ -3477,7 +3477,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c1ced74a-476e-455e-b4a8-d2fc0be55bd5)
     )
-    (fp_text value "4 V Solar cell" (at 2.54 -5.08) (layer "F.Fab")
+    (fp_text value "5 V Solar cell" (at 2.54 -5.08) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c28a207e-a8f8-4c04-b88b-1f9f3045240f)
     )
