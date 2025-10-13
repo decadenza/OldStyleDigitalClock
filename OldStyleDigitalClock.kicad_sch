@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Old style digital clock")
-		(date "2025-10-11")
+		(date "2025-10-13")
 		(rev "1")
 		(company "Pasquale Lafiosca")
 	)
