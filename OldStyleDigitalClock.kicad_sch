@@ -2445,7 +2445,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Adjust value of resistors\nas high as possible to\nincrease battery life.\nDecrease it to increase\nbrightness. Min. 220 Ω. "
+	(text "Value of resistors may need\nto be adjusted according to\nthe chosen 7 segment LEDs."
 		(exclude_from_sim no)
 		(at 345.44 30.48 0)
 		(effects
