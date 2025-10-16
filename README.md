@@ -24,7 +24,7 @@ This is the signal measured at one active LED segment:
 <img src="img/LedDisplayOnSignal.jpg" alt="LED signal" width="400">
 
 ## PCB printing
-A standard 2-layer PCB is used. You may use the [FabricationOutput.zip](FabricationOutput.zip) file directly to order the PCM from your supplier. It contains the necessary Gerbers and drill files.
+A standard 2-layer PCB is used. You may zip and use the [FabricationOutput](FabricationOutput) directly to order the PCM from your supplier. It contains the necessary Gerbers and drill files.
 
 ## License
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).

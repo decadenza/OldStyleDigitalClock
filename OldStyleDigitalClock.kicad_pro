@@ -514,7 +514,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "OldStyleDigitalClock.net",
-      "plot": "./fabricationOutput/",
+      "plot": "./FabricationOutput/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

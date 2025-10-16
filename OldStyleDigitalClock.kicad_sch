@@ -3989,12 +3989,6 @@
 		(uuid "19d1f398-bbed-4c4a-ac28-64fa526041cd")
 	)
 	(junction
-		(at 129.54 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ca683ff-7a9a-4f43-b917-e4d6e2134246")
-	)
-	(junction
 		(at 393.7 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4041,6 +4035,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4019f3fe-df02-467b-a634-0ca928f261fe")
+	)
+	(junction
+		(at 134.62 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419f4947-ec79-4e30-95fd-6dea468e4889")
 	)
 	(junction
 		(at 259.08 186.69)
@@ -4121,22 +4121,10 @@
 		(uuid "7f2ed101-9c14-4d87-82c7-6ad53f20df42")
 	)
 	(junction
-		(at 116.84 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "868d56d1-0db1-4fdf-b0f5-177929939e27")
-	)
-	(junction
 		(at 394.97 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ac690c0-7a84-4f59-ab27-dee4cc71e94a")
-	)
-	(junction
-		(at 129.54 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f2f8c74-1686-4eca-9cbd-d54c06656d96")
 	)
 	(junction
 		(at 200.66 41.91)
@@ -4215,6 +4203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd1ebad1-7d04-4f39-81da-456d706824ac")
+	)
+	(junction
+		(at 134.62 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5be17da-fab0-4055-b5e7-bf67e7605d6c")
 	)
 	(junction
 		(at 316.23 87.63)
@@ -4918,6 +4912,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 171.45) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251bc649-221b-42bb-9652-3947b4277e64")
+	)
+	(wire
+		(pts
 			(xy 246.38 228.6) (xy 250.19 228.6)
 		)
 		(stroke
@@ -5478,16 +5482,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 184.15) (xy 116.84 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c4aa14-a55e-479d-a205-16fb4a023ea6")
-	)
-	(wire
-		(pts
 			(xy 332.74 140.97) (xy 332.74 109.22)
 		)
 		(stroke
@@ -6005,6 +5999,16 @@
 			(type default)
 		)
 		(uuid "7d3370a3-2523-4ca9-a677-1356ce50a7ac")
+	)
+	(wire
+		(pts
+			(xy 134.62 184.15) (xy 148.59 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d558355-feee-4804-8b53-1faf302e3bdd")
 	)
 	(wire
 		(pts
@@ -6538,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 171.45) (xy 129.54 173.99)
+			(xy 134.62 171.45) (xy 134.62 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6618,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 184.15) (xy 116.84 184.15)
+			(xy 116.84 184.15) (xy 134.62 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6988,7 +6992,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 171.45) (xy 129.54 171.45)
+			(xy 116.84 171.45) (xy 121.92 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7038,13 +7042,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 181.61) (xy 129.54 184.15)
+			(xy 134.62 181.61) (xy 134.62 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8f4ba05-9c58-463d-a5ff-a903fb5e2979")
+	)
+	(wire
+		(pts
+			(xy 134.62 171.45) (xy 148.59 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9288e79-f02c-4609-8b7d-0300b5ee2d3b")
 	)
 	(wire
 		(pts
@@ -7498,16 +7512,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 184.15) (xy 148.59 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d70061-a72a-4688-8aa5-9ae861a67cfd")
-	)
-	(wire
-		(pts
 			(xy 69.85 148.59) (xy 20.32 148.59)
 		)
 		(stroke
@@ -7645,16 +7649,6 @@
 			(type default)
 		)
 		(uuid "ef7a00a3-21e9-4f56-9394-ecb886242df9")
-	)
-	(wire
-		(pts
-			(xy 129.54 171.45) (xy 135.89 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1133c08-33b8-4085-b508-9836e4101e41")
 	)
 	(wire
 		(pts
@@ -7875,16 +7869,6 @@
 			(type default)
 		)
 		(uuid "fb5f7424-5096-44bd-8059-83f0aea1573f")
-	)
-	(wire
-		(pts
-			(xy 143.51 171.45) (xy 148.59 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf939af-0095-4396-8803-77f53545c7bc")
 	)
 	(wire
 		(pts
@@ -10401,71 +10385,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41b0ac07-51c1-4b7c-a9d3-ccf0521e93c1")
-		(property "Reference" "#PWR042"
-			(at 116.84 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd206798-6f18-4d9b-9288-ad63a75548dd")
-		)
-		(instances
-			(project ""
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 316.23 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11120,7 +11039,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT85")
-		(at 139.7 171.45 0)
+		(at 125.73 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11130,7 +11049,7 @@
 		(fields_autoplaced yes)
 		(uuid "645efd2e-726f-401b-bbad-e86a70fe25b9")
 		(property "Reference" "D7"
-			(at 140.0175 165.1 0)
+			(at 126.0475 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +11057,7 @@
 			)
 		)
 		(property "Value" "BAT85"
-			(at 140.0175 167.64 0)
+			(at 126.0475 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11065,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 139.7 175.895 0)
+			(at 125.73 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11074,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf"
-			(at 139.7 171.45 0)
+			(at 125.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 171.45 0)
+			(at 125.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14916,15 +14835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
+		(property "Description" "\n                        \n                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator\n                        \n"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -14934,7 +14845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n                        \n                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator\n                        \n"
+		(property "MF" "Texas Instruments"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -15523,7 +15434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 177.8 0)
+		(at 134.62 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15531,7 +15442,7 @@
 		(dnp no)
 		(uuid "c546db50-550e-4bed-8b03-fb3e9f49a17f")
 		(property "Reference" "R23"
-			(at 124.46 177.8 90)
+			(at 129.54 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15450,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 127 177.8 90)
+			(at 132.08 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15547,7 +15458,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 127.762 177.8 90)
+			(at 132.842 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,7 +15467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 177.8 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15565,7 +15476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 177.8 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
