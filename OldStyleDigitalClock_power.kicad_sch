@@ -1332,174 +1332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -2856,7 +2688,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "t_{H} = 0.69 * (1 kΩ + POT_23_VALUE) * 0.01 µF\nt_{L} = 0.69 * (LDR + POT_12_VALUE + 1 kΩ) * 0.01 µF\n\nWith light (LDR = 10 kΩ):\n	If RV1 in middle position (~50% duty cycle):\n	t_{H} = t_{L} = ~3.5 ms\n\n	If RV1 fully up (~100% duty cycle):\n	t_{H} = 0.69 * (1 kΩ + 1 MΩ) * 0.01 µF = ~6.90 ms\n	t_{L} = 0.69 * (LDR + 1 kΩ) * 0.01 µF = ~0.07 ms\n\n	If RV1 fully down (~0% duty cycle):\n	t_{H} = 0.69 * (1 kΩ) * 0.01 µF = ~0.00 ms\n	t_{L} = 0.69 * (LDR + 1 MΩ + 1 kΩ) * 0.01 µF = 6.97 ms\n\nWith darkness (LDR = 500 kΩ):\n	If RV1 in middle position (~50% duty cycle):\n	t_{H} = t_{L} = ~3.5 ms\n\n	If RV1 fully up (~66% duty cycle):\n	t_{H} = 0.69 * (1 kΩ + 1 MΩ) * 0.01 µF = ~6.90 ms\n	t_{L} = 0.69 * (LDR + 1 kΩ) * 0.01 µF = ~3.46 ms\n\n	If RV1 fully down (~0% duty cycle):\n	t_{H} = 0.69 * (1 kΩ) * 0.01 µF = ~0.00 ms\n	t_{L} = 0.69 * (LDR + 1 MΩ + 1 kΩ) * 0.01 µF = 10.35 ms"
+	(text "t_{H} = 0.69 * (1 kΩ + POT_23_VALUE) * 0.01 µF\nt_{L} = 0.69 * (LDR + POT_12_VALUE + 1 kΩ) * 0.01 µF\n\n\nWith light and POT fully up -> Duty cycle: ~98%\nWith light and POT 50% -> Duty cycle: ~49%\n\nWith dark and POT fully up -> Duty cycle: ~50%\nWith dark and POT 50% -> Duty cycle: ~25%"
 		(exclude_from_sim no)
 		(at 211.836 111.252 0)
 		(effects
@@ -2880,13 +2712,13 @@
 		(uuid "160751d9-8a31-4180-b137-e22b3b0a62c2")
 	)
 	(junction
-		(at 133.35 40.64)
+		(at 38.1 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41b01848-76a2-48f8-a501-f5a85c01545f")
 	)
 	(junction
-		(at 133.35 30.48)
+		(at 38.1 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474c087a-707e-4840-a449-8cb50e86a474")
@@ -3051,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 133.35 40.64)
+			(xy 25.4 185.42) (xy 38.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3091,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 144.78 40.64)
+			(xy 38.1 185.42) (xy 49.53 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3481,7 +3313,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 144.78 30.48)
+			(xy 38.1 175.26) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 30.48) (xy 133.35 30.48)
+			(xy 25.4 175.26) (xy 38.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3934,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 40.64 0)
+		(at 38.1 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3942,7 +3774,7 @@
 		(dnp no)
 		(uuid "17a308cc-1866-4c2d-b098-bda0a0408076")
 		(property "Reference" "#PWR038"
-			(at 133.35 46.99 0)
+			(at 38.1 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 45.72 0)
+			(at 38.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 40.64 0)
+			(at 38.1 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 40.64 0)
+			(at 38.1 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 40.64 0)
+			(at 38.1 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,92 +3823,6 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 226.06 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cd43dd3-6c2c-4f51-9674-62c8dc8e0fbe")
-		(property "Reference" "D5"
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 226.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "239810ad-1a6a-458a-87df-e8198dc35359")
-		)
-		(pin "2"
-			(uuid "5575bbc4-8451-48f7-a92d-c27990097b7c")
-		)
-		(instances
-			(project ""
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4154,7 +3900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 30.48 0)
+		(at 38.1 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4162,7 +3908,7 @@
 		(dnp no)
 		(uuid "1dbe9140-9192-48bc-b156-18a29a1def1a")
 		(property "Reference" "#PWR023"
-			(at 133.35 36.83 0)
+			(at 38.1 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +3917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 35.56 0)
+			(at 38.1 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 30.48 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +3934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 30.48 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +3943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 30.48 0)
+			(at 38.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +3981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1 MΩ"
+		(property "Value" "500 kΩ"
 			(at 236.22 63.4999 0)
 			(effects
 				(font
@@ -4554,7 +4300,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 27.94 0)
+		(at 25.4 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4563,7 +4309,7 @@
 		(fields_autoplaced yes)
 		(uuid "6508a4bc-83bb-4f2c-bc4b-cde86eaf8dad")
 		(property "Reference" "H1"
-			(at 123.19 25.3999 0)
+			(at 27.94 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4318,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 123.19 27.9399 0)
+			(at 27.94 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4327,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 120.65 27.94 0)
+			(at 25.4 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 27.94 0)
+			(at 25.4 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4345,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 120.65 27.94 0)
+			(at 25.4 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4696,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 27.94 0)
+		(at 49.53 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4959,7 +4705,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac585a3-115f-4cab-84f5-d282c05f6b7f")
 		(property "Reference" "H2"
-			(at 147.32 25.3999 0)
+			(at 52.07 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4714,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 147.32 27.9399 0)
+			(at 52.07 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4723,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 144.78 27.94 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 27.94 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4741,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 27.94 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +4981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ @ 10 Lux / 500 kΩ dark"
+		(property "Value" "10 kΩ @ 10 Lux / 500 kΩ @ dark"
 			(at 236.22 48.2599 0)
 			(effects
 				(font
@@ -5978,6 +5724,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT85")
+		(at 226.06 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29d489c-191f-4a07-91bc-c09ab4f38ae7")
+		(property "Reference" "D1"
+			(at 226.3775 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT85"
+			(at 226.3775 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 226.06 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8c1ee8d-640f-411c-8b32-6bfb8bc7f4ed")
+		)
+		(pin "2"
+			(uuid "328044d3-8316-45b7-bf0b-03198f049246")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 53.34 0)
 		(unit 1)
@@ -6175,7 +5988,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 38.1 0)
+		(at 49.53 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6184,7 +5997,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecc6837e-7d72-44e1-93df-2f66ba1783d0")
 		(property "Reference" "H4"
-			(at 147.32 35.5599 0)
+			(at 52.07 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6006,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 147.32 38.0999 0)
+			(at 52.07 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6015,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 144.78 38.1 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 38.1 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6033,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 38.1 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6184,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 38.1 0)
+		(at 25.4 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6380,7 +6193,7 @@
 		(fields_autoplaced yes)
 		(uuid "f82d31de-2551-423e-9756-28163d46f7e0")
 		(property "Reference" "H3"
-			(at 123.19 35.5599 0)
+			(at 27.94 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6202,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 123.19 38.0999 0)
+			(at 27.94 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6211,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 120.65 38.1 0)
+			(at 25.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 38.1 0)
+			(at 25.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6229,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 120.65 38.1 0)
+			(at 25.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
