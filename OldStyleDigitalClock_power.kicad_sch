@@ -2688,7 +2688,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "t_{H} = 0.69 * (1 kΩ + POT_23_VALUE) * 0.01 µF\nt_{L} = 0.69 * (LDR + POT_12_VALUE + 1 kΩ) * 0.01 µF\n\n\nWith light and POT fully up -> Duty cycle: ~98%\nWith light and POT 50% -> Duty cycle: ~49%\n\nWith dark and POT fully up -> Duty cycle: ~50%\nWith dark and POT 50% -> Duty cycle: ~25%"
+	(text "t_{H} = 0.69 * (POT_12_VALUE + 1 kΩ) * 0.01 µF\nt_{L} = 0.69 * (POT_23_VALUE + LDR + 1 kΩ) * 0.01 µF\n\n\nWith light and POT fully up: t_{H} = 7 µs, t_{L} = 3526 µS, duty cycle = ~100%\nWith light and POT 50%: t_{H} = 1732 µs, t_{L} = 1801 µS, duty cycle = ~49%\n\nWith dark and POT fully up: t_{H} = 3457 µs, t_{L} = 6907 µS, duty cycle = ~33%\nWith dark and POT 50%: t_{H} = 1732 µs, t_{L} = 5182 µS, duty cycle = ~25%"
 		(exclude_from_sim no)
 		(at 211.836 111.252 0)
 		(effects
@@ -2710,6 +2710,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "160751d9-8a31-4180-b137-e22b3b0a62c2")
+	)
+	(junction
+		(at 233.68 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "254279c7-f980-4930-b438-768d092079df")
 	)
 	(junction
 		(at 38.1 185.42)
@@ -2752,12 +2758,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8945119d-6817-4738-b93c-3c321b735cb6")
-	)
-	(junction
-		(at 233.68 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a07a0268-d4b4-4c16-9e13-db7d7a84fdbe")
 	)
 	(junction
 		(at 167.64 67.31)
@@ -2913,6 +2913,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 48.26) (xy 219.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a643a72-cd85-4f49-9d48-95b79366f6cf")
+	)
+	(wire
+		(pts
 			(xy 40.64 35.56) (xy 41.91 35.56)
 		)
 		(stroke
@@ -2950,16 +2960,6 @@
 			(type default)
 		)
 		(uuid "3112a9fd-13cb-4238-a00b-514d8cfcaf5c")
-	)
-	(wire
-		(pts
-			(xy 233.68 39.37) (xy 233.68 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "344a460a-fb13-48b2-a791-0767feec6ab0")
 	)
 	(wire
 		(pts
@@ -3030,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "4aaa26df-f9f8-4364-8414-59f07735eccb")
+	)
+	(wire
+		(pts
+			(xy 233.68 64.77) (xy 233.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794a68a-89cf-48c1-8508-86379e239b59")
 	)
 	(wire
 		(pts
@@ -3213,16 +3223,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 62.23) (xy 229.87 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd66764-b8b4-4e74-b0a1-a5e74dd0da17")
-	)
-	(wire
-		(pts
 			(xy 68.58 109.22) (xy 78.74 109.22)
 		)
 		(stroke
@@ -3323,6 +3323,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 41.91) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad74f282-109f-4aae-b388-b34d49cb7012")
+	)
+	(wire
+		(pts
 			(xy 68.58 109.22) (xy 68.58 110.49)
 		)
 		(stroke
@@ -3330,16 +3340,6 @@
 			(type default)
 		)
 		(uuid "adeeba6f-f2f0-4fb0-bc54-3c407225c986")
-	)
-	(wire
-		(pts
-			(xy 219.71 62.23) (xy 219.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06ed5b5-c86c-4cd6-a19f-f465dcf68322")
 	)
 	(wire
 		(pts
@@ -3433,7 +3433,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 66.04) (xy 233.68 74.93)
+			(xy 233.68 52.07) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3460,16 +3460,6 @@
 			(type default)
 		)
 		(uuid "d873b872-adbc-4052-92fb-6adc0d601b5b")
-	)
-	(wire
-		(pts
-			(xy 233.68 50.8) (xy 233.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da47a868-b398-4b48-aa94-f113dfa0158a")
 	)
 	(wire
 		(pts
@@ -3630,6 +3620,16 @@
 			(type default)
 		)
 		(uuid "f9a880e4-f9e1-4e43-aead-f785407b3beb")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 229.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5cca2b-f374-433f-804c-096d2684c48a")
 	)
 	(wire
 		(pts
@@ -3964,7 +3964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 233.68 62.23 0)
+		(at 233.68 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3973,25 +3973,25 @@
 		(dnp no)
 		(uuid "29ef0a8b-96c6-431b-874b-81b134c18fde")
 		(property "Reference" "RV1"
-			(at 236.22 60.9599 0)
+			(at 243.586 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "500 kΩ"
-			(at 236.22 63.4999 0)
+			(at 243.586 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 62.23 0)
+			(at 233.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 62.23 0)
+			(at 233.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 233.68 62.23 0)
+			(at 233.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 233.68 39.37 0)
+		(at 233.68 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4244,7 +4244,7 @@
 		(dnp no)
 		(uuid "52c20085-8ab0-4511-901f-be83e50ca8cc")
 		(property "Reference" "#PWR063"
-			(at 233.68 43.18 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4253,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.68 34.29 0)
+			(at 233.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 39.37 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 39.37 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 39.37 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +4964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 233.68 46.99 0)
+		(at 233.68 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4973,7 +4973,7 @@
 		(fields_autoplaced yes)
 		(uuid "b39f539e-9141-4eb7-9b73-34a039b7a2f1")
 		(property "Reference" "R39"
-			(at 236.22 45.7199 0)
+			(at 236.22 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,8 +4981,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ @ 10 Lux / 500 kΩ @ dark"
-			(at 236.22 48.2599 0)
+		(property "Value" "(5516) 10 kΩ @ 10 Lux / 500 kΩ @ dark"
+			(at 236.22 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 53.34 90)
+			(at 234.95 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 48.26 0)
+			(at 233.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 233.68 46.99 0)
+			(at 233.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
