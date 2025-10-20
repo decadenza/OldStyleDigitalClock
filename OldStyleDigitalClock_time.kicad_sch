@@ -3973,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4017BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4060BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4017BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -4773,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4017BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 232.41 125.73 0)
 			(effects
 				(font

@@ -6897,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4026BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 201.93 184.15 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4073BE:DIP794W45P254L1969H508Q14"
+		(property "Footprint" ""
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CD4073BE:DIP794W45P254L1969H508Q14"
+		(property "Footprint" ""
 			(at 43.18 222.25 0)
 			(effects
 				(font
@@ -9923,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4026BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 279.4 46.99 0)
 			(effects
 				(font
@@ -10099,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4026BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 280.67 109.22 0)
 			(effects
 				(font
@@ -10366,7 +10366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4026BE:DIP794W45P254L1969H508Q16"
+		(property "Footprint" ""
 			(at 203.2 246.38 0)
 			(effects
 				(font
@@ -10609,7 +10609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4073BE:DIP794W45P254L1969H508Q14"
+		(property "Footprint" ""
 			(at 203.2 278.13 0)
 			(effects
 				(font
@@ -11235,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD4073BE:DIP794W45P254L1969H508Q14"
+		(property "Footprint" ""
 			(at 281.94 140.97 0)
 			(effects
 				(font
