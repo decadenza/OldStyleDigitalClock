@@ -6163,7 +6163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0160c2b3-5fa8-437f-8034-f37ec1408665")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6227,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01fa7a3d-97c8-4e26-8332-c08dfcfe411b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR023"
 			(at 43.18 212.09 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR029")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6291,7 +6291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10dd6a0b-53d9-4d6b-940b-be2675627197")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 355.6 179.07 90)
 			(effects
 				(font
@@ -6307,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 355.6 182.372 90)
 			(effects
 				(font
@@ -6342,7 +6342,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6373,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 325.12 32.512 90)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16135269-a35d-4215-adb6-c88a59469a77")
-		(property "Reference" "U15"
+		(property "Reference" "U1"
 			(at 134.62 241.3 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U15")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -6527,7 +6527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16d1628f-b913-4be8-9f02-7c19ae5433e0")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 363.22 181.61 90)
 			(effects
 				(font
@@ -6543,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 363.22 184.912 90)
 			(effects
 				(font
@@ -6578,7 +6578,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6593,7 +6593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d724170-2d7a-4d13-9729-34d64ff921d3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR024"
 			(at 238.76 227.33 0)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR047")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1b2703-bc2e-4ad3-9d01-579170b94083")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 386.08 161.29 0)
 			(effects
 				(font
@@ -6734,7 +6734,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6749,7 +6749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20294e65-c750-43cf-bedd-e595a75d6859")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 337.82 34.29 90)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 337.82 37.592 90)
 			(effects
 				(font
@@ -6800,7 +6800,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6816,7 +6816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21be2f11-4a9c-452f-8895-f4275c8e8b8e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR011"
 			(at 394.97 121.92 0)
 			(effects
 				(font
@@ -6865,7 +6865,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR026")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6881,7 +6881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238a895b-17b9-4020-8b59-2e2b6f63c182")
-		(property "Reference" "U11"
+		(property "Reference" "U8"
 			(at 201.93 158.75 0)
 			(effects
 				(font
@@ -6975,7 +6975,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U11")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7006,7 +7006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 136.652 30.48 90)
 			(effects
 				(font
@@ -7056,7 +7056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9c9536-4580-4f62-aafd-408a5d4a2b61")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 344.17 99.06 90)
 			(effects
 				(font
@@ -7072,7 +7072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 344.17 102.362 90)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e46b8a1-cf69-46ad-931f-471163d91902")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 340.36 173.99 90)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 340.36 177.292 90)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3167150e-b0b2-420c-a2cd-9b0ac5f4c915")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 31.75 222.25 0)
 			(effects
 				(font
@@ -7206,7 +7206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 33.3248 218.44 0)
 			(effects
 				(font
@@ -7241,7 +7241,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31ab7d80-dc83-47c4-b6f2-a646d5537cf5")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 317.5 166.37 90)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 317.5 169.672 90)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7323,7 +7323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34975c85-5d2c-4b75-a91d-3f81a6989b7c")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 386.08 24.13 0)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362bd091-4211-4963-b287-7e42d8edf81c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR025"
 			(at 254 229.87 0)
 			(effects
 				(font
@@ -7464,7 +7464,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR048")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d5b3c92-deb7-48c1-bfe1-29bac660dc53")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR022"
 			(at 237.49 212.09 0)
 			(effects
 				(font
@@ -7595,7 +7595,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR046")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7611,7 +7611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b0ac07-51c1-4b7c-a9d3-ccf0521e93c1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR018"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7660,7 +7660,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR042")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d99ee3-83db-4ff0-8171-deaa9edb3da8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR012"
 			(at 316.23 137.16 0)
 			(effects
 				(font
@@ -7725,7 +7725,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR031")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7756,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 364.49 47.752 90)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac72e64-5f52-400c-a289-c9dd1bb07e60")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 356.87 104.14 90)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 356.87 107.442 90)
 			(effects
 				(font
@@ -7857,7 +7857,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7888,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 358.14 45.212 90)
 			(effects
 				(font
@@ -7938,7 +7938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50534a2b-db84-4190-a30b-929577c40887")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 314.96 24.13 0)
 			(effects
 				(font
@@ -7987,7 +7987,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8002,7 +8002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57245dc7-74eb-4716-82aa-a81fa7a7b744")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 350.52 101.6 90)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 350.52 104.902 90)
 			(effects
 				(font
@@ -8053,7 +8053,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8069,7 +8069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e8cd80-a5fe-4243-91df-e177cffb6f69")
-		(property "Reference" "U15"
+		(property "Reference" "U1"
 			(at 210.82 25.4 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U15")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -8172,7 +8172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d20e2bd-49ed-4ef5-8318-1310bf559548")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 165.1 43.18 90)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.3248 39.37 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8238,7 +8238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a17bdc6-d3cc-4d1f-8b6d-1e86bbd4cd5d")
-		(property "Reference" "C19"
+		(property "Reference" "C6"
 			(at 30.48 170.18 0)
 			(effects
 				(font
@@ -8256,7 +8256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 32.0548 166.37 0)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C19")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c8b79f7-1d8c-4141-8dec-599140a62263")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 320.04 213.36 90)
 			(effects
 				(font
@@ -8322,7 +8322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 320.04 216.662 90)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8373,7 +8373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7093314c-591f-40b1-9e0e-d4e2fb4686a9")
-		(property "Reference" "U15"
+		(property "Reference" "U1"
 			(at 49.53 168.9099 0)
 			(effects
 				(font
@@ -8463,7 +8463,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U15")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -8478,7 +8478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b2c05f-b49e-4770-8a88-cb76c31212fd")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 331.47 93.98 90)
 			(effects
 				(font
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 331.47 97.282 90)
 			(effects
 				(font
@@ -8529,7 +8529,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "731294dd-7aa6-41a5-9bc9-01703cbd6a60")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 43.18 124.46 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U9")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -8648,7 +8648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783002f9-cdb7-4ae2-aacc-4b9419b89ff2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR027"
 			(at 43.18 242.57 0)
 			(effects
 				(font
@@ -8697,7 +8697,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8713,7 +8713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b094e21-61b2-49a6-b157-0179e19d2957")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR029"
 			(at 238.76 274.32 0)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR053")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8777,7 +8777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b329371-7d4b-44e3-88a8-e12006234bb3")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 325.12 168.91 90)
 			(effects
 				(font
@@ -8793,7 +8793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 325.12 172.212 90)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8843,7 +8843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8448db36-d8d4-484d-96b8-99c68294165f")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 242.57 226.06 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 246.38 227.6348 0)
 			(effects
 				(font
@@ -8896,7 +8896,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C15")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8912,7 +8912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8634dc20-1873-41d8-ab05-a4da3d677ec6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR021"
 			(at 393.7 196.85 0)
 			(effects
 				(font
@@ -8961,7 +8961,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR044")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8976,7 +8976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8708759b-8961-4e2f-8f4c-4713b0a262db")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 340.36 220.98 90)
 			(effects
 				(font
@@ -8992,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 340.36 224.282 90)
 			(effects
 				(font
@@ -9027,7 +9027,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9043,7 +9043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879766b7-23b3-45ab-bf47-2692687f2441")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR014"
 			(at 35.56 144.78 0)
 			(effects
 				(font
@@ -9092,7 +9092,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR035")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9107,7 +9107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89e85c37-3a4a-4be4-ae50-b0cd637366a9")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 363.22 228.6 90)
 			(effects
 				(font
@@ -9123,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 363.22 231.902 90)
 			(effects
 				(font
@@ -9158,7 +9158,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af5fb74-250c-458f-8d9f-d618f79e0db6")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 49.53 220.9799 0)
 			(effects
 				(font
@@ -9263,7 +9263,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U9")
+					(reference "U6")
 					(unit 4)
 				)
 			)
@@ -9279,7 +9279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6edff3-416d-462d-9f8b-67071f0d379d")
-		(property "Reference" "U15"
+		(property "Reference" "U1"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9367,7 +9367,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U15")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95d19ef2-fd8b-4f4f-a1b7-b244ff812e9e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR015"
 			(at 43.18 161.29 0)
 			(effects
 				(font
@@ -9431,7 +9431,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR030")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9446,7 +9446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c83178-1afb-4d3c-8a49-d00373702413")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 168.91 43.18 90)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 172.212 43.18 90)
 			(effects
 				(font
@@ -9497,7 +9497,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9512,7 +9512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99669670-e870-401e-a0fe-e71d61ccda8e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR013"
 			(at 93.98 140.97 0)
 			(effects
 				(font
@@ -9561,7 +9561,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR037")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9576,7 +9576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99a97a18-7a06-4bda-8670-35e6772db895")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 241.3 163.83 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 245.11 165.4048 0)
 			(effects
 				(font
@@ -9629,7 +9629,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9644,7 +9644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a9b7f98-0177-4c20-8049-fc6c4d61c2d2")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 332.74 171.45 90)
 			(effects
 				(font
@@ -9660,7 +9660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 332.74 174.752 90)
 			(effects
 				(font
@@ -9695,7 +9695,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9711,7 +9711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e8d1c31-920a-4d1c-aa76-a663986c3b07")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 233.68 45.72 0)
 			(effects
 				(font
@@ -9760,7 +9760,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9776,7 +9776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef8caaf-bd92-4524-9310-c5e0f5b73346")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 161.29 57.15 0)
 			(effects
 				(font
@@ -9825,7 +9825,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9840,7 +9840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a043b0b6-ef1f-4cfb-ac70-19cbf25e07b2")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 355.6 226.06 90)
 			(effects
 				(font
@@ -9856,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 355.6 229.362 90)
 			(effects
 				(font
@@ -9891,7 +9891,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R33")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -9907,7 +9907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ded0c1-b889-4416-9d87-c63de1428281")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 279.4 21.59 0)
 			(effects
 				(font
@@ -10001,7 +10001,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10016,7 +10016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a521e49f-f70c-40a0-a32f-893190df6e29")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 331.47 31.75 90)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 331.47 35.052 90)
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10193,7 +10193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58bfc52-6d97-463d-bff1-a9d4bdf96c0e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR017"
 			(at 252.73 167.64 0)
 			(effects
 				(font
@@ -10242,7 +10242,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR040")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10258,7 +10258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a48051-e6ec-4683-a07e-acb147fb75ad")
-		(property "Reference" "U12"
+		(property "Reference" "U9"
 			(at 386.08 208.28 0)
 			(effects
 				(font
@@ -10334,7 +10334,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9115d3f-5576-4ef5-951c-1a49dea33d0d")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 203.2 220.98 0)
 			(effects
 				(font
@@ -10444,7 +10444,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9971485-0955-4012-bbf8-6ac9c254dfc7")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 337.82 96.52 90)
 			(effects
 				(font
@@ -10475,7 +10475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 337.82 99.822 90)
 			(effects
 				(font
@@ -10510,7 +10510,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10525,7 +10525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9ee2402-34f6-4047-8a56-0efbea3c22a3")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 344.17 36.83 90)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 344.17 40.132 90)
 			(effects
 				(font
@@ -10576,7 +10576,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10593,7 +10593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acbedbf9-7a9b-49f1-8581-4cc25fb110e9")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 203.2 269.24 0)
 			(effects
 				(font
@@ -10680,7 +10680,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U9")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -10695,7 +10695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec12085-a86d-4e90-a7cd-79f487e9cadd")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 326.39 215.9 90)
 			(effects
 				(font
@@ -10711,7 +10711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 326.39 219.202 90)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10761,7 +10761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed017f4-6e1d-40c3-acf5-c466206bea45")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 138.43 29.21 0)
 			(effects
 				(font
@@ -10810,7 +10810,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10825,7 +10825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed6dae1-fb54-4c1d-8d26-364c2105c949")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR09"
 			(at 316.23 90.17 0)
 			(effects
 				(font
@@ -10874,7 +10874,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR016")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10889,7 +10889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b605f241-6785-49be-89ad-4bcbf622cde7")
-		(property "Reference" "C13"
+		(property "Reference" "C4"
 			(at 110.49 156.21 90)
 			(effects
 				(font
@@ -10905,7 +10905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 115.8748 152.4 0)
 			(effects
 				(font
@@ -10940,7 +10940,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10956,7 +10956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc0eae7-a6fe-4ca5-9d1b-f35d6ef6a8f1")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 331.47 88.9 0)
 			(effects
 				(font
@@ -11005,7 +11005,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11020,7 +11020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c546db50-550e-4bed-8b03-fb3e9f49a17f")
-		(property "Reference" "R23"
+		(property "Reference" "R18"
 			(at 124.46 156.21 90)
 			(effects
 				(font
@@ -11036,7 +11036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 127.762 156.21 90)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R23")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbac0412-2461-4654-bfc5-94bef5434b10")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 314.96 74.93 0)
 			(effects
 				(font
@@ -11136,7 +11136,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11151,7 +11151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdc17d98-be01-40b1-be12-983a071cdba0")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 347.98 223.52 90)
 			(effects
 				(font
@@ -11167,7 +11167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 347.98 226.822 90)
 			(effects
 				(font
@@ -11202,7 +11202,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11219,7 +11219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde4578b-fa1d-4cbf-83ef-1f372550732e")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 281.94 132.08 0)
 			(effects
 				(font
@@ -11306,7 +11306,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11388,7 +11388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d214b170-c3f6-4df3-83c0-ac23b9a668b7")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR016"
 			(at 237.49 165.1 0)
 			(effects
 				(font
@@ -11437,7 +11437,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR039")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11453,7 +11453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d330a7c8-901f-4aef-bbf9-897d72585b0d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 394.97 59.69 0)
 			(effects
 				(font
@@ -11502,7 +11502,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11517,7 +11517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d52b4047-fd73-4db8-be53-7cebd94f990a")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 320.04 85.09 0)
 			(effects
 				(font
@@ -11535,7 +11535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 323.85 86.6648 0)
 			(effects
 				(font
@@ -11570,7 +11570,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11585,7 +11585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d687949e-a8d7-48a4-8a72-2f341f7fbda1")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 88.9 144.78 90)
 			(effects
 				(font
@@ -11601,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 92.202 144.78 90)
 			(effects
 				(font
@@ -11636,7 +11636,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11652,7 +11652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d82d81d3-8944-42fb-a99a-9593af462543")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR010"
 			(at 227.33 99.06 0)
 			(effects
 				(font
@@ -11701,7 +11701,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR024")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11716,7 +11716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8c0964b-f46d-4135-a3da-cb1d9875cf7b")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 363.22 106.68 90)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 363.22 109.982 90)
 			(effects
 				(font
@@ -11767,7 +11767,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11875,7 +11875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de4e266b-adf8-4a6a-931b-42bee9917c8a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR020"
 			(at 43.18 190.5 0)
 			(effects
 				(font
@@ -11924,7 +11924,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR052")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11940,7 +11940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfba8c3e-80eb-4add-afab-0ebcc78d5a50")
-		(property "Reference" "U15"
+		(property "Reference" "U1"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -12028,7 +12028,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "U15")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -12044,7 +12044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73f17ed-6c73-4e4b-a9bc-03ab77e82e7f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR019"
 			(at 157.48 175.26 0)
 			(effects
 				(font
@@ -12093,7 +12093,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR043")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12109,7 +12109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e998e4ad-8c44-4ee0-8b17-865d07c83bed")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR028"
 			(at 393.7 243.84 0)
 			(effects
 				(font
@@ -12158,7 +12158,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR050")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 322.58 24.4348 0)
 			(effects
 				(font
@@ -12241,7 +12241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef859368-019d-43eb-bb31-26679a2a4bcc")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 325.12 91.44 90)
 			(effects
 				(font
@@ -12257,7 +12257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 325.12 94.742 90)
 			(effects
 				(font
@@ -12292,7 +12292,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12323,7 +12323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 350.52 42.672 90)
 			(effects
 				(font
@@ -12373,7 +12373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f524f3af-a2fb-43d3-aaa0-326683f2980b")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 332.74 218.44 90)
 			(effects
 				(font
@@ -12389,7 +12389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 332.74 221.742 90)
 			(effects
 				(font
@@ -12424,7 +12424,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12439,7 +12439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5561405-95b2-4e00-9387-1896f902bcea")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 347.98 176.53 90)
 			(effects
 				(font
@@ -12455,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 347.98 179.832 90)
 			(effects
 				(font
@@ -12490,7 +12490,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12506,7 +12506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb24269c-260e-4ecf-9c66-fc1a31c25bb8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR026"
 			(at 152.4 237.49 0)
 			(effects
 				(font
@@ -12555,7 +12555,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21"
-					(reference "#PWR051")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
