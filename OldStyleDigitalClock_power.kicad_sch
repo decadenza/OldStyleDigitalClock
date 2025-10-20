@@ -2688,7 +2688,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "t_{H} = 0.69 * (POT_12 + 1 kΩ) * 0.1 µF\nt_{L} = 0.69 * (LDR + 1 kΩ) * 0.1 µF\n\nWith light		tH (µS)	tL (µS)	Duty cycle\n	POT 0%		69		759		8.33%\n	POT 25%		8694	759		91.97%\n	POT 50%		17319	759		95.80%\n	POT 100%	34569	759		97.85%\n				\nWith dark		tH (µS)	tL (µS)	Duty cycle\n	POT 0%		69		34569	0.20%\n	POT 25%		8694	34569	20.10%\n	POT 50%		17319	34569	33.38%\n	POT 100%	34569	34569	50.00%\n\n"
+	(text "t_{H} = 0.69 * (POT_12 + 1 kΩ) * 0.01 µF\nt_{L} = 0.69 * (LDR + 1 kΩ) * 0.01 µF\n\n"
 		(exclude_from_sim no)
 		(at 211.836 111.252 0)
 		(effects
@@ -2808,6 +2808,12 @@
 		(uuid "caac73ab-e5e5-4b25-a6b9-0a45048222d7")
 	)
 	(junction
+		(at 205.74 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3980d29-0c44-47d3-9f1e-812d60ca3f91")
+	)
+	(junction
 		(at 33.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2818,6 +2824,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ad5f8f-0d29-4ca4-802d-dfb5aa7ef844")
+	)
+	(no_connect
+		(at 251.46 44.45)
+		(uuid "09016f91-bbdf-4eb5-8de6-cd014435475f")
 	)
 	(no_connect
 		(at 54.61 97.79)
@@ -2869,6 +2879,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 67.31) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de72540-d74b-4c65-a265-56793ce53014")
+	)
+	(wire
+		(pts
 			(xy 124.46 90.17) (xy 115.57 90.17)
 		)
 		(stroke
@@ -2876,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "0e2a6f8f-cf5a-470b-8411-2cffad56520d")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10624c03-2931-4075-96b5-62926fd02b28")
 	)
 	(wire
 		(pts
@@ -3209,6 +3239,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 68.58) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863a668c-c7f4-469a-8a9a-3c172d1520da")
+	)
+	(wire
+		(pts
 			(xy 172.72 93.98) (xy 172.72 83.82)
 		)
 		(stroke
@@ -3286,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "9e9fe3ba-8373-4f7d-902e-f1b641b588ab")
+	)
+	(wire
+		(pts
+			(xy 205.74 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef35883-ca5a-4511-8d0a-1f558c1f8d0f")
 	)
 	(wire
 		(pts
@@ -3559,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 78.74) (xy 203.2 78.74)
+			(xy 214.63 78.74) (xy 205.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3873,7 +3923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.01 uF"
 			(at 237.49 96.9009 0)
 			(effects
 				(font
@@ -4782,6 +4832,75 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1ef4941-5da2-4200-aecf-81082ab482d1")
+		(property "Reference" "R18"
+			(at 207.01 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 207.01 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.962 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e45275b9-1616-426f-a2d9-f9f18a6e915d")
+		)
+		(pin "1"
+			(uuid "8f52da7c-91d2-4726-9518-2f8bd2ce1f18")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "R18")
 					(unit 1)
 				)
 			)
