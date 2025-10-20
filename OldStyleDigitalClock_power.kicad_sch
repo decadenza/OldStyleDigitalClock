@@ -2688,9 +2688,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "t_{H} = 0.69 * (POT_12 + 1 kΩ) * 0.01 µF\nt_{L} = 0.69 * (LDR + 1 kΩ) * 0.01 µF\n\n"
+	(text "t_{H} = 0.69 * (POT_12 + 1 kΩ) * 0.047 µF\nt_{L} = 0.69 * (LDR + 1 kΩ) * 0.047 µF\n\n"
 		(exclude_from_sim no)
-		(at 211.836 111.252 0)
+		(at 240.538 18.542 0)
 		(effects
 			(font
 				(size 1.2192 1.2192)
@@ -3923,7 +3923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01 uF"
+		(property "Value" "0.047 uF"
 			(at 237.49 96.9009 0)
 			(effects
 				(font
