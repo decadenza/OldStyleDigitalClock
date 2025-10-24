@@ -3791,7 +3791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ce1f300-f3f2-4a65-84f4-240567297ee2")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 59.436 83.312 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a308cc-1866-4c2d-b098-bda0a0408076")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 38.1 191.77 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3925,7 +3925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4e6208-eedf-4041-ba56-acd02a376233")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 217.17 121.0309 0)
 			(effects
 				(font
@@ -3979,7 +3979,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3994,7 +3994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dbe9140-9192-48bc-b156-18a29a1def1a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 38.1 181.61 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41408a65-cead-49b2-910f-b59e33fecf8f")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 204.47 77.4699 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52c20085-8ab0-4511-901f-be83e50ca8cc")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR037"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR030")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "869890b9-1c73-439a-9ce1-61dde7b68e11")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 151.13 121.0309 0)
 			(effects
 				(font
@@ -4641,7 +4641,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cbc0c3-be39-4c42-b8e4-b7f9932a7641")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 128.27 33.9724 90)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT85"
+		(property "Value" "1N4001W"
 			(at 128.27 36.5124 90)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 121.285 35.56 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ef4941-5da2-4200-aecf-81082ab482d1")
-		(property "Reference" "R34"
+		(property "Reference" "R38"
 			(at 181.61 96.774 0)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R34")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4861,7 +4861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7cda4e9-c590-4512-a1b7-fb4bd5db7776")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 80.518 91.694 90)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad07d540-231e-4cd1-b0a7-9739c2b13d53")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 82.55 85.09 90)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b39f539e-9141-4eb7-9b73-34a039b7a2f1")
-		(property "Reference" "R33"
+		(property "Reference" "R37"
 			(at 230.886 90.424 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5196,7 +5196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b512fee4-5a4d-4dba-a901-6199ff081d65")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR030"
 			(at 116.84 29.21 0)
 			(effects
 				(font
@@ -5245,7 +5245,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR038")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5261,7 +5261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e9c427-e847-4b36-8108-3d4671bbf7a0")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 135.89 90.17 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b630ebb2-e6dd-4a4d-9db8-57897fc061a5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR035"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR041")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bef584b4-1e59-41f7-a795-dd26f93a36b5")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 110.49 36.83 90)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf05e611-f5a5-49d8-983d-0edde0bc7ab0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -5511,7 +5511,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0560dda-3036-420f-babb-48c1711fdbce")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8017e1b-b62f-4e36-b8b4-818f074eb188")
-		(property "Reference" "R38"
+		(property "Reference" "R33"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -5641,7 +5641,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R38")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5734,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29d489c-191f-4a07-91bc-c09ab4f38ae7")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 204.47 94.2974 90)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAS85"
+		(property "Value" "1N4001W"
 			(at 204.47 96.8374 90)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 206.375 95.25 0)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5868,7 +5868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46abf69-59ec-46c4-b450-a8b9423cdf07")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 167.2433 96.52 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 		(instances
 			(project ""
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e774926a-f81a-460d-bd34-58c9974fb855")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 128.27 101.6 0)
 			(effects
 				(font
@@ -6071,7 +6071,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6218,7 +6218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b56398-e881-4bab-aa49-5cd964f8890a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -6267,7 +6267,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6359,7 +6359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAS85"
+		(property "Value" "1N4001W"
 			(at 226.06 102.5524 90)
 			(effects
 				(font
@@ -6368,7 +6368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.075 101.6 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fea2dd67-d455-43e3-bad6-c0f691d5bd66")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 70.104 82.296 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 		(instances
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
