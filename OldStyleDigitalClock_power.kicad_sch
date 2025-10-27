@@ -4257,6 +4257,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 147.32 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4226dacf-5a96-4e6c-bb1a-9df5ee6e3b3f")
+		(property "Reference" "C12"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 146.3548 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d441cba-4177-4526-9525-04195c4aa241")
+		)
+		(pin "2"
+			(uuid "6f6ac853-6b9c-4a51-a911-ca0639a9916f")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 201.93 73.66 0)
 		(unit 1)
@@ -4572,76 +4641,6 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "869890b9-1c73-439a-9ce1-61dde7b68e11")
-		(property "Reference" "C12"
-			(at 151.13 121.0309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 151.13 123.5709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 148.2852 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6fa0f02-ad8c-48ff-9e16-83c3b2a9a87e")
-		)
-		(pin "2"
-			(uuid "431b7205-dccd-41ee-a371-fb588c1bd3ce")
-		)
-		(instances
-			(project "OldStyleDigitalClock"
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "C12")
 					(unit 1)
 				)
 			)
