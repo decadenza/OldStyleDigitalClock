@@ -2707,18 +2707,6 @@
 		(uuid "10af05ab-017e-4203-8900-8104d6790cf8")
 	)
 	(junction
-		(at 38.1 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41b01848-76a2-48f8-a501-f5a85c01545f")
-	)
-	(junction
-		(at 38.1 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "474c087a-707e-4840-a449-8cb50e86a474")
-	)
-	(junction
 		(at 78.74 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2731,10 +2719,22 @@
 		(uuid "55f71796-55a5-443a-91f5-ddb0443ffb2b")
 	)
 	(junction
+		(at 36.83 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef49938-9cfc-470b-ae0e-fc35facfb37b")
+	)
+	(junction
 		(at 201.93 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6feb0733-7bc7-44a2-9c7c-2424b8878c59")
+	)
+	(junction
+		(at 36.83 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "771672de-fda0-46e6-a7e2-e64f31e51234")
 	)
 	(junction
 		(at 53.34 50.8)
@@ -2880,6 +2880,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 185.42) (xy 49.53 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2287f9a2-1af7-42ea-a7f7-e5742f60f8b0")
+	)
+	(wire
+		(pts
 			(xy 147.32 109.22) (xy 152.4 109.22)
 		)
 		(stroke
@@ -2900,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 185.42) (xy 38.1 185.42)
+			(xy 25.4 185.42) (xy 36.83 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2937,16 +2947,6 @@
 			(type default)
 		)
 		(uuid "2b664ff0-4d8d-4ecf-a9e3-fd73ce2fdb12")
-	)
-	(wire
-		(pts
-			(xy 38.1 185.42) (xy 49.53 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c36dbac-f149-4448-900a-76122a4c89f8")
 	)
 	(wire
 		(pts
@@ -3070,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 161.29) (xy 25.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468b2258-7f4e-4821-83d8-c51c6f618f7f")
+	)
+	(wire
+		(pts
 			(xy 194.31 109.22) (xy 177.8 109.22)
 		)
 		(stroke
@@ -3137,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "66cc32a4-cde8-444a-b29c-73f28886ae98")
+	)
+	(wire
+		(pts
+			(xy 25.4 161.29) (xy 25.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d5c07e-62e4-40aa-911e-f4a03619ba31")
 	)
 	(wire
 		(pts
@@ -3390,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 175.26) (xy 49.53 175.26)
+			(xy 25.4 175.26) (xy 36.83 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3437,6 +3457,16 @@
 			(type default)
 		)
 		(uuid "b4609a2c-75b8-4954-9d6d-9754d42fd401")
+	)
+	(wire
+		(pts
+			(xy 36.83 175.26) (xy 49.53 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e53642-04d8-4aef-8935-7a77ecf28a39")
 	)
 	(wire
 		(pts
@@ -3487,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "cb6c01f4-303c-4d19-b55c-ef149a8fe9c1")
-	)
-	(wire
-		(pts
-			(xy 25.4 175.26) (xy 38.1 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe041fd-bdc1-4d8e-9e53-a05596c6a62f")
 	)
 	(wire
 		(pts
@@ -3862,70 +3882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17a308cc-1866-4c2d-b098-bda0a0408076")
-		(property "Reference" "#PWR044"
-			(at 38.1 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bb771d6-953c-4ec7-a868-f535dfd697fd")
-		)
-		(instances
-			(project "OldStyleDigitalClock"
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 213.36 123.19 0)
 		(unit 1)
@@ -3990,70 +3946,6 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dbe9140-9192-48bc-b156-18a29a1def1a")
-		(property "Reference" "#PWR043"
-			(at 38.1 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "685f6826-2f05-4c28-b509-c9f61b4720af")
-		)
-		(instances
-			(project "OldStyleDigitalClock"
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4127,6 +4019,71 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4e3baf-095a-4197-9821-defb58744181")
+		(property "Reference" "#PWR044"
+			(at 36.83 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "432a5415-6dd3-4694-8c92-3c219dcb415a")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4461,6 +4418,138 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6629de52-3c00-4f49-9435-4c38513e9f28")
+		(property "Reference" "#PWR043"
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13875968-4d46-4f61-bc3b-e8c23f7e01de")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 25.4 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "711e57fb-1063-4a64-a1ab-c5f74e7c035a")
+		(property "Reference" "H5"
+			(at 27.94 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 27.94 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea251001-8f7e-45bc-9153-5784acf9b006")
+		)
+		(instances
+			(project ""
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -5388,6 +5477,71 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b995bc67-c1c2-4e65-aca3-8ff02c2d2800")
+		(property "Reference" "#PWR062"
+			(at 29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3262a4d-5f75-4adc-86cc-f35f552571d0")
+		)
+		(instances
+			(project "OldStyleDigitalClock"
+				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
