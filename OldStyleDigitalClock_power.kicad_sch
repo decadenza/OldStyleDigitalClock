@@ -3070,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 161.29) (xy 25.4 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468b2258-7f4e-4821-83d8-c51c6f618f7f")
-	)
-	(wire
-		(pts
 			(xy 194.31 109.22) (xy 177.8 109.22)
 		)
 		(stroke
@@ -3147,16 +3137,6 @@
 			(type default)
 		)
 		(uuid "66cc32a4-cde8-444a-b29c-73f28886ae98")
-	)
-	(wire
-		(pts
-			(xy 25.4 161.29) (xy 25.4 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d5c07e-62e4-40aa-911e-f4a03619ba31")
 	)
 	(wire
 		(pts
@@ -4489,73 +4469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 25.4 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "711e57fb-1063-4a64-a1ab-c5f74e7c035a")
-		(property "Reference" "H5"
-			(at 27.94 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 27.94 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 25.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea251001-8f7e-45bc-9153-5784acf9b006")
-		)
-		(instances
-			(project ""
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 39.37 85.09 0)
 		(unit 1)
@@ -5477,71 +5390,6 @@
 			(project "OldStyleDigitalClock"
 				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b995bc67-c1c2-4e65-aca3-8ff02c2d2800")
-		(property "Reference" "#PWR062"
-			(at 29.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3262a4d-5f75-4adc-86cc-f35f552571d0")
-		)
-		(instances
-			(project "OldStyleDigitalClock"
-				(path "/a24f1d5b-eb61-47a3-9a92-6515e74f7a21/31b03831-3d01-49ef-8f86-173fa6c5d953"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
