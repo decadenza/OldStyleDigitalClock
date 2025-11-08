@@ -63,14 +63,6 @@
         [
           "lib_footprint_mismatch|172050000|48475000|6ec99efd-43dd-4f11-bfc6-81d38906e69d|00000000-0000-0000-0000-000000000000",
           "Manual override for overhang"
-        ],
-        [
-          "lib_footprint_mismatch|200817357|72494479|6c8faeb0-f3ad-4865-a70f-5b5c93feb57f|00000000-0000-0000-0000-000000000000",
-          "Manual override for overhang"
-        ],
-        [
-          "lib_footprint_mismatch|200857357|103524479|4cb8babb-cc4f-41f8-b9a8-3fb6e88f2810|00000000-0000-0000-0000-000000000000",
-          "Manual override for overhang"
         ]
       ],
       "meta": {
@@ -603,12 +595,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

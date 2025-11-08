@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Old style digital clock")
-		(date "2025-10-13")
+		(date "2025-11-08")
 		(rev "1")
 		(company "Pasquale Lafiosca")
 	)
@@ -3438,8 +3438,28 @@
 		(uuid "f2e8ab79-1765-4857-bc6b-a6a302214374")
 	)
 	(no_connect
+		(at 238.76 246.38)
+		(uuid "5e035773-2704-47d2-8fd4-3b495cfa728d")
+	)
+	(no_connect
 		(at 378.46 52.07)
 		(uuid "678aa467-d09e-4091-a65d-4d2d2672d03f")
+	)
+	(no_connect
+		(at 316.23 104.14)
+		(uuid "6c1d92bc-eaf7-4abf-b9f9-d8b50982fb0c")
+	)
+	(no_connect
+		(at 238.76 241.3)
+		(uuid "76667d11-065f-4a3c-91fa-ee2b4a7b3a43")
+	)
+	(no_connect
+		(at 238.76 256.54)
+		(uuid "94b73b10-25b0-47bf-a021-d07b50fb281c")
+	)
+	(no_connect
+		(at 237.49 194.31)
+		(uuid "97422f83-a91c-48c3-b9ac-07c70f7eb058")
 	)
 	(no_connect
 		(at 378.46 189.23)
@@ -3454,8 +3474,16 @@
 		(uuid "da51dad8-7c08-4eb9-bd39-abba7b5fc519")
 	)
 	(no_connect
+		(at 316.23 119.38)
+		(uuid "e9c761ff-8f4c-4d01-82c3-d614055a166c")
+	)
+	(no_connect
 		(at 378.46 114.3)
 		(uuid "f73ca135-93f5-479d-95fa-66a1f9da3b05")
+	)
+	(no_connect
+		(at 314.96 57.15)
+		(uuid "fd98c643-55ae-4dbc-aa03-b3c8eac73d3b")
 	)
 	(wire
 		(pts

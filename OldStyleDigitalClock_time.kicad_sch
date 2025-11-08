@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Old style digital clock")
-		(date "2025-10-17")
+		(date "2025-11-08")
 		(rev "1")
 		(company "Pasquale Lafiosca")
 	)
@@ -1530,6 +1530,158 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe91a635-ffe2-49cf-99dd-8ad5930fad6d")
+	)
+	(no_connect
+		(at 106.68 118.11)
+		(uuid "0c48400e-3a8c-40c0-ada0-1d62a9a309f4")
+	)
+	(no_connect
+		(at 113.03 46.99)
+		(uuid "0cf38a75-d90e-4fdb-b56e-a4fa6bbaa632")
+	)
+	(no_connect
+		(at 113.03 49.53)
+		(uuid "174ab25c-a83a-470f-8126-3e41b596e5ae")
+	)
+	(no_connect
+		(at 255.27 130.81)
+		(uuid "19bd584c-3318-4677-a72a-ebf1c7938d13")
+	)
+	(no_connect
+		(at 106.68 120.65)
+		(uuid "20c28228-7c2a-4974-b2ef-b3700f851363")
+	)
+	(no_connect
+		(at 106.68 135.89)
+		(uuid "27def049-dc3a-46c0-9bdf-126b752ec990")
+	)
+	(no_connect
+		(at 106.68 125.73)
+		(uuid "2b046be9-d094-4bc3-abc5-a91250b13939")
+	)
+	(no_connect
+		(at 255.27 110.49)
+		(uuid "2ca33eda-4d62-458d-8ee2-ea6e17192287")
+	)
+	(no_connect
+		(at 181.61 110.49)
+		(uuid "319fc1c7-8fee-4cc5-81d4-2732979aef0a")
+	)
+	(no_connect
+		(at 106.68 133.35)
+		(uuid "33d99bcd-5761-421d-97eb-eeae427cf2e6")
+	)
+	(no_connect
+		(at 113.03 57.15)
+		(uuid "3892d235-46ee-4750-880a-8b79b0f480e9")
+	)
+	(no_connect
+		(at 113.03 36.83)
+		(uuid "4b3feec9-4f95-4d58-a8f3-c69b287a547f")
+	)
+	(no_connect
+		(at 113.03 39.37)
+		(uuid "50a07a60-f570-49b3-b081-f25e36d34d5e")
+	)
+	(no_connect
+		(at 181.61 118.11)
+		(uuid "5ad995b4-b463-4cc1-a72f-a3f762a4c6f3")
+	)
+	(no_connect
+		(at 255.27 128.27)
+		(uuid "5e9f1f8f-8f15-477e-8308-b44c996bc0f8")
+	)
+	(no_connect
+		(at 106.68 128.27)
+		(uuid "620fa596-da48-4892-bc02-502510d9daba")
+	)
+	(no_connect
+		(at 181.61 125.73)
+		(uuid "6496bd6a-29e4-4fb1-a9d9-8617326173e9")
+	)
+	(no_connect
+		(at 181.61 123.19)
+		(uuid "65e0ffa2-803e-4c51-8f2d-0ae4676a6c04")
+	)
+	(no_connect
+		(at 106.68 123.19)
+		(uuid "6ae61983-1b7f-467f-a7e2-500f0ec0ce9d")
+	)
+	(no_connect
+		(at 181.61 128.27)
+		(uuid "6b7633ab-2421-41be-8daa-fc5fff2f41bd")
+	)
+	(no_connect
+		(at 255.27 113.03)
+		(uuid "848cf3ee-57cd-4e03-89b0-c9dc16531806")
+	)
+	(no_connect
+		(at 255.27 115.57)
+		(uuid "87c5acc4-ec84-4887-9894-9aee58b7cb08")
+	)
+	(no_connect
+		(at 113.03 52.07)
+		(uuid "89996b91-4e5b-4fab-acee-424d18020dfa")
+	)
+	(no_connect
+		(at 77.47 41.91)
+		(uuid "8fd25283-3a84-4467-87bc-6d14b6d70385")
+	)
+	(no_connect
+		(at 106.68 130.81)
+		(uuid "a14887dc-d9df-4579-91d2-55e10901b891")
+	)
+	(no_connect
+		(at 113.03 54.61)
+		(uuid "a46dd316-e8b1-4797-950d-f3bb77b5d08b")
+	)
+	(no_connect
+		(at 113.03 44.45)
+		(uuid "ada74a17-39ab-4013-98f6-0928687b24e7")
+	)
+	(no_connect
+		(at 181.61 120.65)
+		(uuid "adbed058-5523-4d3c-89f1-2703dcd0af89")
+	)
+	(no_connect
+		(at 181.61 113.03)
+		(uuid "adde0cb1-68d1-4ab8-bf17-2ef656561d07")
+	)
+	(no_connect
+		(at 181.61 135.89)
+		(uuid "bb98ca0f-e64a-4b8d-8075-2edd79c87dba")
+	)
+	(no_connect
+		(at 181.61 115.57)
+		(uuid "c21b556e-b87e-4aff-8c77-3f0fe9c2c0c4")
+	)
+	(no_connect
+		(at 113.03 41.91)
+		(uuid "cf61d04b-9f5e-44ae-be69-6ed3031f491b")
+	)
+	(no_connect
+		(at 181.61 130.81)
+		(uuid "dc0660f8-df90-429a-95df-715298af8ad7")
+	)
+	(no_connect
+		(at 255.27 133.35)
+		(uuid "e4b91093-0e2d-42bf-833b-6c7532fa0a26")
+	)
+	(no_connect
+		(at 255.27 125.73)
+		(uuid "f0b985ef-491e-4705-8616-6faed2bb30d1")
+	)
+	(no_connect
+		(at 106.68 115.57)
+		(uuid "f44178c6-2b78-49b2-a2d8-0771cbbb7276")
+	)
+	(no_connect
+		(at 255.27 135.89)
+		(uuid "f5ff4e5d-f86b-4ec9-84d4-dda82de33a3b")
+	)
+	(no_connect
+		(at 255.27 118.11)
+		(uuid "f645d16b-993d-40da-8de0-6c489cc62ae3")
 	)
 	(wire
 		(pts
@@ -3677,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n                        \n                            CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator\n                        \n"
+		(property "Description" "CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator"
 			(at 95.25 49.53 0)
 			(effects
 				(font
