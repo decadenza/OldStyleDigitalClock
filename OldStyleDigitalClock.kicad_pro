@@ -61,30 +61,6 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_filters_mismatch|136175000|53075000|c69e81fa-7599-41d8-bd1c-5211cc4fc3c9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|166787500|113940000|a8dfdcad-e14e-45a6-88bd-1c771757a148|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|177479943|74436134|46fdd55f-bdc5-4549-98a4-c791c1b6d928|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|178675000|70575000|4023fda0-1b61-4bf2-8b93-866d60e58390|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|69469000|118905000|377ef5ca-a8d1-4541-b2be-50ed48bb2e44|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|83412500|94735000|eafcafd3-5b61-4384-ad6b-7711988af41c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "hole_clearance|56995000|105470000|d1376060-7a9e-4d0a-8b65-423f8137c061|976387da-9525-4729-9dc5-afd6c3566c56",
           "USB C standard"
         ],
@@ -578,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "OldStyleDigitalClock.net",
-      "plot": "./fabricationOutput/",
+      "plot": "./FabricationOutput/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

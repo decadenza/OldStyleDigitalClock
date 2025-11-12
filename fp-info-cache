@@ -1,4 +1,4 @@
-25631080159529916
+25608270549899310
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57140,13 +57140,6 @@ ceramic
 0
 3
 3
-Custom
-AA battery holder
-Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
-Bulgin BX0036
-0
-2
-2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -101863,90 +101856,6 @@ igbt diode module
 0
 25
 25
-USB connectors
-1206_reverse_mount_LED
-Everlight 26-21/BHC-ATW/CA, LCSC Part # C264553
-
-0
-2
-2
-USB connectors
-APA102-2020
-
-
-0
-8
-6
-USB connectors
-DX07S016JA3R1500
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-22
-17
-USB connectors
-TYPE-C-31-M-04
-USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
-USB C Type-C Receptacle Hybrid
-0
-28
-28
-USB connectors
-TYPE-C-31-M-12
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-20
-17
-USB connectors
-TYPE-C-31-M-12_alt
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-22
-17
-USB connectors
-TYPE-C-31-M-14
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-20
-17
-USB connectors
-TYPE-C-31-M-17
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-10
-7
-USB connectors
-TYPE-C-31-M-17_handsolder
-Korean Hroparts Elec, Power only USB connector supporting up to 3A, easier to solder w/0.3mm pad separation
-
-0
-10
-7
-USB connectors
-U-A-39DS-Y-1
-
-
-0
-11
-10
-USB connectors
-U-B-M9DD-W-1
- Korean Hroparts Elec, USB 3.0 Type B
-USB3
-0
-9
-9
-USB connectors
-U-F-10SW-Y-1
-Korean Hroparts Elec, USB 3.0 Female Micro-B, 1.5A 2 Surface Mount 5+5
-USB3
-0
-16
-11
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
