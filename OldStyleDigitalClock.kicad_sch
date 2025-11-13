@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Value" "4071"
+		(property "Value" "CD4071BM"
 			(at 134.62 243.84 0)
 			(effects
 				(font
@@ -6473,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 134.62 250.19 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
 			(at 134.62 250.19 0)
 			(effects
 				(font
@@ -6922,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4026BE"
+		(property "Value" "CD4026BNSR"
 			(at 201.93 161.29 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4026b.pdf?ts=1762977938812"
 			(at 201.93 184.15 0)
 			(effects
 				(font
@@ -6949,7 +6949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Only SOIC-16W in datasheet"
 			(at 201.93 184.15 0)
 			(effects
 				(font
@@ -8110,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Value" "4071"
+		(property "Value" "CD4071BM"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 210.82 34.29 0)
 			(effects
 				(font
@@ -8127,7 +8127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
 			(at 210.82 34.29 0)
 			(effects
 				(font
@@ -8415,7 +8415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4071"
+		(property "Value" "CD4071BM"
 			(at 49.53 171.4499 0)
 			(effects
 				(font
@@ -8424,7 +8424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 43.18 170.18 0)
 			(effects
 				(font
@@ -8433,7 +8433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
 			(at 43.18 170.18 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				)
 			)
 		)
-		(property "Value" "4073"
+		(property "Value" "CD4073BM"
 			(at 43.18 127 0)
 			(effects
 				(font
@@ -8594,7 +8594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -8603,7 +8603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf?ts=1763007214799"
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -9216,7 +9216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4073"
+		(property "Value" "CD4073BM"
 			(at 49.53 223.5199 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 43.18 222.25 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf?ts=1763007214799"
 			(at 43.18 222.25 0)
 			(effects
 				(font
@@ -9320,7 +9320,7 @@
 				)
 			)
 		)
-		(property "Value" "4071"
+		(property "Value" "CD4071BM"
 			(at 154.94 140.97 0)
 			(effects
 				(font
@@ -9328,7 +9328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 154.94 147.32 0)
 			(effects
 				(font
@@ -9337,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
 			(at 154.94 147.32 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4026BE"
+		(property "Value" "CD4026BNSR"
 			(at 279.4 24.13 0)
 			(effects
 				(font
@@ -9966,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4026b.pdf?ts=1762977938812"
 			(at 279.4 46.99 0)
 			(effects
 				(font
@@ -9975,7 +9975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Only SOIC-16W in datasheet"
 			(at 279.4 46.99 0)
 			(effects
 				(font
@@ -10124,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4026BE"
+		(property "Value" "CD4026BNSR"
 			(at 280.67 86.36 0)
 			(effects
 				(font
@@ -10142,7 +10142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4026b.pdf?ts=1762977938812"
 			(at 280.67 109.22 0)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Only SOIC-16W in datasheet"
 			(at 280.67 109.22 0)
 			(effects
 				(font
@@ -10391,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4026BE"
+		(property "Value" "CD4026BNSR"
 			(at 203.2 223.52 0)
 			(effects
 				(font
@@ -10409,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4026b.pdf?ts=1762977938812"
 			(at 203.2 246.38 0)
 			(effects
 				(font
@@ -10418,7 +10418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Only SOIC-16W in datasheet"
 			(at 203.2 246.38 0)
 			(effects
 				(font
@@ -10634,7 +10634,7 @@
 				)
 			)
 		)
-		(property "Value" "4073"
+		(property "Value" "CD4073BM"
 			(at 203.2 271.78 0)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 203.2 278.13 0)
 			(effects
 				(font
@@ -10651,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf?ts=1763007214799"
 			(at 203.2 278.13 0)
 			(effects
 				(font
@@ -11260,7 +11260,7 @@
 				)
 			)
 		)
-		(property "Value" "4073"
+		(property "Value" "CD4073BM"
 			(at 281.94 134.62 0)
 			(effects
 				(font
@@ -11268,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 281.94 140.97 0)
 			(effects
 				(font
@@ -11277,7 +11277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf?ts=1763007214799"
 			(at 281.94 140.97 0)
 			(effects
 				(font
@@ -11981,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Value" "4071"
+		(property "Value" "CD4071BM"
 			(at 226.06 114.3 0)
 			(effects
 				(font
@@ -11989,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 226.06 120.65 0)
 			(effects
 				(font
@@ -11998,7 +11998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
 			(at 226.06 120.65 0)
 			(effects
 				(font

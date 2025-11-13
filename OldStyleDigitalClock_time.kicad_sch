@@ -3624,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4017BE"
+		(property "Value" "CD4017BM"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4017b.pdf"
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4060BE"
+		(property "Value" "CD4060BM"
 			(at 95.25 26.67 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4060b.pdf"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4017BE"
+		(property "Value" "CD4017BM"
 			(at 158.75 100.33 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4017b.pdf"
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4017BE"
+		(property "Value" "CD4017BM"
 			(at 232.41 100.33 0)
 			(effects
 				(font
@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -4442,7 +4442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4017b.pdf"
 			(at 232.41 125.73 0)
 			(effects
 				(font
