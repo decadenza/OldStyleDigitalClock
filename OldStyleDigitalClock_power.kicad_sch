@@ -4673,7 +4673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4001W"
+		(property "Value" "1N5819W"
 			(at 132.08 37.7824 90)
 			(effects
 				(font
@@ -5750,7 +5750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4001W"
+		(property "Value" "1N5819W"
 			(at 204.47 96.8374 90)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4001W"
+		(property "Value" "1N5819W"
 			(at 226.06 102.5524 90)
 			(effects
 				(font
