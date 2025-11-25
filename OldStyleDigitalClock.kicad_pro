@@ -62,11 +62,11 @@
       "drc_exclusions": [
         [
           "hole_clearance|56995000|105470000|d1376060-7a9e-4d0a-8b65-423f8137c061|976387da-9525-4729-9dc5-afd6c3566c56",
-          "USB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|105770000|d1376060-7a9e-4d0a-8b65-423f8137c061|42678b20-471c-4c20-9e18-e593f7ccd088",
-          "USB C standardUSB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|105970000|d1376060-7a9e-4d0a-8b65-423f8137c061|2c7d608b-f0e7-4032-a827-cf4ff6309d3b",
@@ -74,23 +74,23 @@
         ],
         [
           "hole_clearance|56995000|106270000|d1376060-7a9e-4d0a-8b65-423f8137c061|9bc64c45-5c5d-4089-b163-e62a9b753587",
-          "USB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|111070000|61d6887c-135c-4450-821f-afcb9bd6e465|75cb30ed-0c97-4699-8900-a592f94d831b",
-          "USB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|111370000|61d6887c-135c-4450-821f-afcb9bd6e465|19db41e2-e201-486b-9e56-950fe6844121",
-          "USB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|111570000|61d6887c-135c-4450-821f-afcb9bd6e465|4feccfe7-895a-4b60-8f0f-1e57d3130dda",
-          "USB C standard"
+          ""
         ],
         [
           "hole_clearance|56995000|111870000|61d6887c-135c-4450-821f-afcb9bd6e465|2b820545-27ec-43b9-b240-70ddcc4a6207",
-          "USB C standard"
+          ""
         ],
         [
           "lib_footprint_mismatch|172050000|48475000|6ec99efd-43dd-4f11-bfc6-81d38906e69d|00000000-0000-0000-0000-000000000000",

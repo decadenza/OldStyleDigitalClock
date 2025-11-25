@@ -1969,7 +1969,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT85"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1988,7 +1988,7 @@
 					)
 				)
 			)
-			(property "Value" "BAT85"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1996,7 +1996,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2005,7 +2005,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2014,7 +2014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V 0.2A Schottky barrier single diode, DO-35"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2032,7 +2032,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2041,7 +2041,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT85_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2079,7 +2079,7 @@
 					)
 				)
 			)
-			(symbol "BAT85_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3858,7 +3858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 213.36 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3868,7 +3868,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d4e6208-eedf-4041-ba56-acd02a376233")
 		(property "Reference" "C13"
-			(at 217.17 121.0309 0)
+			(at 217.17 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3877,7 @@
 			)
 		)
 		(property "Value" "0.047 uF"
-			(at 217.17 123.5709 0)
+			(at 217.17 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 213.36 123.19 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT85")
+		(lib_id "Diode:1N5819")
 		(at 129.54 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4691,7 +4691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 129.54 36.83 0)
 			(effects
 				(font
@@ -4700,12 +4700,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5732,7 +5733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT85")
+		(lib_id "Diode:1N5819")
 		(at 201.93 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5768,7 +5769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 201.93 95.25 0)
 			(effects
 				(font
@@ -5777,12 +5778,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 201.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6348,7 +6350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT85")
+		(lib_id "Diode:1N5819")
 		(at 223.52 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6384,7 +6386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 223.52 101.6 0)
 			(effects
 				(font
@@ -6393,12 +6395,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 223.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
