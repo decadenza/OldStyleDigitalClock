@@ -1,4 +1,7 @@
-# KiCAD backup folder
+# KiCad backup folder
 OldStyleDigitalClock-backups/*
+
+# KiCad lock files
+*.lck
 
 *.blend1
