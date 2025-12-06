@@ -565,7 +565,7 @@
       "plot": "./FabricationOutput/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OldStyleDigitalClock.stl",
       "svg": "",
       "vrml": ""
     },
