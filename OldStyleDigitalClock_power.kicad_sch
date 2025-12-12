@@ -4878,7 +4878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4734A"
+		(property "Value" "W7"
 			(at 79.756 94.234 90)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Zener diode 5.6V"
 			(at 78.74 91.44 0)
 			(effects
 				(font
