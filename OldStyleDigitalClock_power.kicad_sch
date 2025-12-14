@@ -4218,7 +4218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 146.05 125.73 0)
 			(effects
 				(font
@@ -4878,7 +4878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W7"
+		(property "Value" "Zener 5.6V (W7)"
 			(at 79.756 94.234 90)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 133.35 91.44 0)
 			(effects
 				(font

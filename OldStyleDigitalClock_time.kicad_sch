@@ -2508,7 +2508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 187.96 104.14 0)
 			(effects
 				(font
@@ -3984,7 +3984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 261.62 104.14 0)
 			(effects
 				(font
@@ -4292,7 +4292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "100 nF"
 			(at 113.03 104.14 0)
 			(effects
 				(font
