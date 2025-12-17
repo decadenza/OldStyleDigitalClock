@@ -1460,17 +1460,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C_{L} = 12.5 pF\nC_{stray} = 3 pF"
-		(exclude_from_sim no)
-		(at 53.34 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d285273-5728-48d5-8cfc-d92ce573688d")
-	)
 	(junction
 		(at 52.07 55.88)
 		(diameter 0)
@@ -2706,7 +2695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 pF"
+		(property "Value" "15 pF"
 			(at 55.88 67.3099 0)
 			(effects
 				(font
@@ -2842,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20 pF"
+		(property "Value" "15 pF"
 			(at 38.1 67.3099 0)
 			(effects
 				(font
@@ -3734,7 +3723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HC49 XTAL (32768 Hz)"
+		(property "Value" "HC49 (32768 Hz C_{L}=12.5 pF)"
 			(at 29.21 59.69 0)
 			(effects
 				(font
@@ -4598,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Value" "300 kΩ"
+		(property "Value" "200 kΩ"
 			(at 34.29 53.34 0)
 			(effects
 				(font
