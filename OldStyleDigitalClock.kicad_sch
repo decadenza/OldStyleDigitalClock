@@ -3415,6 +3415,12 @@
 		(uuid "dc276be7-d63b-4416-b286-9fe22121b15e")
 	)
 	(junction
+		(at 129.54 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e796c343-edcf-475a-a730-6235dc893f06")
+	)
+	(junction
 		(at 330.2 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3706,16 +3712,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 241.3) (xy 167.64 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f019be-7ecf-4c8f-9103-c46adec57a99")
-	)
-	(wire
-		(pts
 			(xy 157.48 166.37) (xy 163.83 166.37)
 		)
 		(stroke
@@ -3866,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 241.3) (xy 129.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb303be-4c13-44a0-abe7-56686622f5d0")
+	)
+	(wire
+		(pts
 			(xy 394.97 52.07) (xy 393.7 52.07)
 		)
 		(stroke
@@ -3913,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "21941d6d-ce96-42a4-be29-621bf73e82e5")
-	)
-	(wire
-		(pts
-			(xy 129.54 171.45) (xy 134.62 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251bc649-221b-42bb-9652-3947b4277e64")
 	)
 	(wire
 		(pts
@@ -4086,6 +4082,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 241.3) (xy 167.64 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d3d44c-40fd-4865-975b-8a216d294ede")
+	)
+	(wire
+		(pts
 			(xy 394.97 114.3) (xy 393.7 114.3)
 		)
 		(stroke
@@ -4093,16 +4099,6 @@
 			(type default)
 		)
 		(uuid "346f0939-821f-474d-b7cc-2c5d6626e698")
-	)
-	(wire
-		(pts
-			(xy 166.37 241.3) (xy 166.37 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3567937c-c5c7-43f3-87a7-5df7f7cad213")
 	)
 	(wire
 		(pts
@@ -4143,6 +4139,16 @@
 			(type default)
 		)
 		(uuid "3ac60261-55bf-4b92-84d6-59dee6a62f48")
+	)
+	(wire
+		(pts
+			(xy 129.54 179.07) (xy 166.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc8a25a-ef1d-4e12-9447-f0103b60c7c8")
 	)
 	(wire
 		(pts
@@ -4406,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 247.65) (xy 127 247.65)
+			(xy 99.06 238.76) (xy 102.87 238.76)
 		)
 		(stroke
 			(width 0)
@@ -4706,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 252.73) (xy 114.3 278.13)
+			(xy 90.17 243.84) (xy 90.17 278.13)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 278.13) (xy 195.58 278.13)
+			(xy 90.17 278.13) (xy 195.58 278.13)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 250.19) (xy 166.37 250.19)
+			(xy 118.11 241.3) (xy 129.54 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5656,16 +5662,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 179.07) (xy 166.37 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4410551-20a7-426e-a13e-810bdf87b122")
-	)
-	(wire
-		(pts
 			(xy 326.39 25.4) (xy 326.39 17.78)
 		)
 		(stroke
@@ -5696,7 +5692,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 252.73) (xy 127 252.73)
+			(xy 90.17 243.84) (xy 102.87 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6064,28 +6060,6 @@
 		)
 		(uuid "ea1e8aec-d929-4a27-90aa-a5ec1d61bae9")
 	)
-	(global_label "MR"
-		(shape input)
-		(at 134.62 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "292a9d15-24ac-4506-9dc6-e9f163f98994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.4855 178.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_PWM"
 		(shape input)
 		(at 199.39 48.26 180)
@@ -6110,7 +6084,7 @@
 	)
 	(global_label "MR"
 		(shape input)
-		(at 123.19 247.65 180)
+		(at 99.06 238.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6120,7 +6094,7 @@
 		)
 		(uuid "c32f6696-c045-4294-a419-060b86f2e6b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0555 247.5706 0)
+			(at 93.9255 238.6806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6433,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4071")
-		(at 134.62 250.19 0)
+		(at 110.49 241.3 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6468,7 +6442,7 @@
 		(fields_autoplaced yes)
 		(uuid "16135269-a35d-4215-adb6-c88a59469a77")
 		(property "Reference" "U1"
-			(at 134.62 241.3 0)
+			(at 110.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6450,7 @@
 			)
 		)
 		(property "Value" "CD4071BM"
-			(at 134.62 243.84 0)
+			(at 110.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6458,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 134.62 250.19 0)
+			(at 110.49 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6467,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
-			(at 134.62 250.19 0)
+			(at 110.49 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6476,7 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
-			(at 134.62 250.19 0)
+			(at 110.49 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
