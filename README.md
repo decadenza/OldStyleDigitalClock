@@ -16,6 +16,7 @@ LEDs may result too faint in daylight and too bright at night. Therefore brightn
 Furthermore, a light-dependent resistor (LDR) is introduced to automatically reduce the duty cycle at night.
 
 The signal measured at one active LED segment is a square wave of a frequency > 30 Hz so that human eye cannot notice the flickering:
+
 <img src="img/LedDisplayOnSignal.jpg" alt="LED signal" width="400">
 
 You may notice flickering if you use a camera to look at the clock. If this is a concern, you may reduce the C13 capacitor value to increase the frequency to the desired level. Full details in the schematics.
