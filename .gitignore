@@ -1,7 +1,9 @@
 # KiCad backup folder
 OldStyleDigitalClock-backups/*
 
+
 # KiCad lock files
 *.lck
 
 *.blend1
+FabricationOutput.zip
