@@ -4587,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Value" "200 kΩ"
+		(property "Value" "300 kΩ"
 			(at 34.29 53.34 0)
 			(effects
 				(font
