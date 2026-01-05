@@ -1,7 +1,7 @@
 # Old Style Digital Clock
 A simple, fully functional digital clock without microcontrollers.
 
-<img src="img/TheClock.jpg" alt="The old style digital clock" width="400">
+<img src="img/clock_final.jpg" alt="The old style digital clock" width="400">
 
 ## Features
 - HH:MM 24-hour format.
@@ -24,8 +24,10 @@ You may notice flickering if you use a camera to look at the clock. If this is a
 ## PCB printing
 A standard 2-layer PCB is used. You may use the [FabricationOutput](FabricationOutput) folder, zip it and order directly from your supplier. It contains the necessary Gerbers and drill files.
 
+<img src="img/clock_pcb.jpg" alt="The old style digital clock" width="400">
+
 ## 3D models
-The clock may be completed by printing the case. See [3D printed parts](3D%20printed%20parts) folder. 
+The clock may be completed by printing the case. See [3D printed parts](3DPrintedParts) folder. 
 
 ## License
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
