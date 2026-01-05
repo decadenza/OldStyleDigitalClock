@@ -22,7 +22,7 @@ The signal measured at one active LED segment is a square wave of a frequency > 
 You may notice flickering if you use a camera to look at the clock. If this is a concern, you may reduce the C13 capacitor value to increase the frequency to the desired level. Full details in the schematics.
 
 ## PCB printing
-A standard 2-layer PCB is used. You may use the [FabricationOutput](FabricationOutput) folder, zip it and order directly from your supplier. It contains the necessary Gerbers and drill files.
+A standard 2-layer PCB is used. You may generate the necessary Gerber and drill files using KiCad according to the specs of your supplier.
 
 <img src="img/clock_pcb.jpg" alt="The old style digital clock" width="400">
 
