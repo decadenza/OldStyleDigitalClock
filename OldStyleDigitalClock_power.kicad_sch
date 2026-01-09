@@ -2698,7 +2698,7 @@
 		)
 		(uuid "3e22aaca-3013-4220-b286-a55fb8991d8e")
 	)
-	(text "t_{H} = 0.69 * (R34 + POT_12) * C13\nt_{L} = 0.69 * (POT_23 + LDR) * C13\n\nTheoretical PWM frequency:\n- with light ~= 593 Hz\n- with dark ~= 305 Hz				\n\n\n\n\n"
+	(text "t_{H} = 0.69 * (R34 + POT_12) * C13\nt_{L} = 0.69 * (POT_23 + LDR) * C13\n\nTheoretical PWM frequency 1/(t_{H}+t_{L}):\n- with light ~= 2787 Hz\n- with dark ~= 1435 Hz\n- with extreme dark (LDR ~= 20 MΩ) ~= 577 Hz\n\n\n\n"
 		(exclude_from_sim no)
 		(at 225.806 111.252 0)
 		(effects
@@ -3876,7 +3876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 nF"
+		(property "Value" "1 nF"
 			(at 217.17 124.4599 0)
 			(effects
 				(font
