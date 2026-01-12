@@ -30040,7 +30040,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a4bb92a3-fa98-45be-a70e-9164ed825391")
 	)
-	(gr_text "CC BY-NC-SA 4.0 - Pasquale Lafiosca, 2025"
+	(gr_text "CC BY-NC-SA 4.0 - Pasquale Lafiosca, 2025 - github.com/decadenza/OldStyleDigitalClock"
 		(at 127.5 132 0)
 		(layer "F.SilkS")
 		(uuid "a05ff039-7cfd-423b-8caa-cf855d84fd87")
